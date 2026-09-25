@@ -76,7 +76,7 @@ const mathQuestions = [
 { questionNumber: 407, correctAnswer: 'B', category: 'Word Problem', imageSrc: 'MathQuizImages/407_B.png' },
 { questionNumber: 408, correctAnswer: 'C', category: 'Algebra', imageSrc: 'MathQuizImages/408_C.png' },
 { questionNumber: 409, correctAnswer: 'A', category: 'Algebra', imageSrc: 'MathQuizImages/409_A.png' },
-{ questionNumber: 410, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/410_C.png' },
+{ questionNumber: 410, correctAnswer: 'D', category: 'Geometry', imageSrc: 'MathQuizImages/410_C.png' },
 { questionNumber: 411, correctAnswer: 'D', category: 'Geometry', imageSrc: 'MathQuizImages/411_D.png' },
 { questionNumber: 414, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/414_C.png' },
 { questionNumber: 415, correctAnswer: 'D', category: 'Geometry', imageSrc: 'MathQuizImages/415_D.png' },

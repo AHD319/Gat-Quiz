@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 800px;
+    min-height: 550px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+.verse-container {
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 14px 16px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    border-top: 3px solid #4f46e5;
+}
+
+.quran-verse {
+    font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', 'Noto Naskh Arabic', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1e293b;
+    line-height: 2; /* Ensures Tashkeel marks do not overlap or clip */
+    margin-bottom: 4px;
+}
+
+.verse-ref {
+    display: block;
+    font-size: 0.85rem;
+    color: #64748b;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* MENU VIEW STYLES */
+.main-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 20px;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: #64748b;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.subject-cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    width: 220px;
+    height: 220px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.15s ease, background-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card-math {
+    background: rgba(37, 99, 235, 0.08);
+    color: #2563eb;
+    border: 2px solid rgba(37, 99, 235, 0.25);
+}
+
+.card-english {
+    background: rgba(249, 115, 22, 0.08);
+    color: #f97316;
+    border: 2px solid rgba(249, 115, 22, 0.25);
+}
+
+.card-icon {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* QUIZ VIEW STYLES */
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.progress-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #64748b;
+}
+
+.score-badge {
+    font-weight: 700;
+    padding: 8px 16px;
+    background: rgba(37, 99, 235, 0.1);
+    color: #2563eb;
+    border-radius: 12px;
+}
+
+.quiz-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.options-row {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.option-btn {
+    flex: 1;
+    padding: 18px 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.option-btn.selected {
+    background: rgba(37, 99, 235, 0.1);
+    border-color: #2563eb;
+    color: #2563eb;
+}
+
+.option-btn.correct {
+    background: rgba(34, 197, 94, 0.15);
+    border-color: #22c55e;
+    color: #15803d;
+}
+
+.option-btn.wrong {
+    background: rgba(239, 68, 68, 0.15);
+    border-color: #ef4444;
+    color: #b91c1c;
+}
+
+.quiz-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.2s ease;
+}
+
+.btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.btn-bordered {
+    background: transparent;
+    border: 2px solid #cbd5e1;
+    color: #334155;
+}
+
+.btn-prominent {
+    background: #2563eb;
+    color: #ffffff;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px 0;
+    color: #64748b;
+}
+
+/* RESULTS VIEW STYLES */
+.party-icon { font-size: 4rem; margin-bottom: 12px; }
+.results-title { font-size: 2.25rem; font-weight: 800; margin-bottom: 12px; }
+.final-score { font-size: 1.5rem; color: #475569; margin-bottom: 32px; }
+.results-actions { display: flex; gap: 20px; }

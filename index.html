@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+        .container { background: #ffffff; width: 100%; max-width: 520px; padding: 32px; border-radius: 16px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); }
+        .app-title { color: #4f46e5; font-size: 1.8rem; text-align: center; font-weight: 800; margin-bottom: 12px; letter-spacing: 0.5px; }
+        .hidden { display: none !important; }
+        h2 { color: #1e293b; font-size: 1.5rem; margin-bottom: 8px; text-align: center; font-weight: 700; }
+        p.subtitle { color: #64748b; font-size: 0.95rem; text-align: center; margin-bottom: 24px; }
+        .menu-grid { display: flex; flex-direction: column; gap: 12px; }
+        .btn { width: 100%; padding: 14px 20px; border: none; border-radius: 10px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s ease; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px; }
+        .btn-primary { background-color: #4f46e5; color: #ffffff; }
+        .btn-primary:hover { background-color: #4338ca; transform: translateY(-1px); }
+        .btn-secondary { background-color: #f1f5f9; color: #334155; border: 1px solid #e2e8f0; }
+        .btn-secondary:hover { background-color: #e2e8f0; color: #0f172a; }
+        .btn-sub { background-color: #e0e7ff; color: #3730a3; font-weight: 600; }
+        .btn-sub:hover { background-color: #c7d2fe; transform: translateY(-1px); }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none !important; }
+        .option-btn { background-color: #ffffff; color: #334155; border: 2px solid #e2e8f0; text-align: left; justify-content: flex-start; padding: 14px 16px; margin-bottom: 10px; }
+        .option-btn:hover:not(:disabled) { border-color: #818cf8; background-color: #f8fafc; }
+        .option-btn.selected { border-color: #4f46e5; background-color: #e0e7ff; color: #3730a3; }
+        .option-btn.correct { background-color: #d1fae5; border-color: #10b981; color: #065f46; }
+        .option-btn.incorrect { background-color: #fee2e2; border-color: #ef4444; color: #991b1b; }
+        .header { display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; font-weight: 700; color: #64748b; padding-bottom: 16px; border-bottom: 2px solid #f1f5f9; margin-bottom: 20px; }
+        .back-link { background: none; border: none; color: #6366f1; font-weight: 700; font-size: 0.9rem; cursor: pointer; padding: 4px 8px; border-radius: 6px; }
+        .back-link:hover { background-color: #e0e7ff; }
+        .nav-row { display: flex; gap: 12px; margin-top: 20px; }
+        img { max-width: 100%; height: auto; display: block; margin: 0 auto 20px; border-radius: 10px; border: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- 1. MAIN MENU VIEW -->
+<div id="menu-view" class="view">
+    <h1 class="app-title">GAT Prep Quiz</h1>
+    <div style="text-align: center; margin-bottom: 16px;" dir="rtl">
+        <p style="font-family: 'Amiri', 'Traditional Arabic', serif; font-size: 1.25rem; font-weight: 700; color: #1e293b; line-height: 1.8; margin-bottom: 4px;">﴿ وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ ﴾</p>
+        <span style="display: block; font-size: 0.85rem; color: #64748b; font-weight: 600;">[سورة النجم: ٣٩]</span>
+    </div>
+    <div class="menu-grid">
+        <button class="btn btn-primary" onclick="showMathMenu()">Math Quiz</button>
+        <button class="btn btn-primary" style="background-color: #0284c7;" onclick="showEnglishMenu()">English Quiz</button>
+    </div>
+</div>
+        
+
+        <!-- 2. MATH SUB-MENU VIEW -->
+        <div id="math-menu-view" class="view hidden">
+            <h2>Math Sections</h2>
+            <p class="subtitle">Choose a sub-topic or practice all</p>
+            <div class="menu-grid">
+                <button class="btn btn-sub" onclick="startQuiz('math', 'geometry')">Geometry</button>
+                <button class="btn btn-sub" onclick="startQuiz('math', 'algebra')">Algebra</button>
+                <button class="btn btn-sub" onclick="startQuiz('math', 'word problem')">Word Problems</button>
+                <button class="btn btn-primary" style="margin-top: 8px;" onclick="startQuiz('math')">All Math Questions</button>
+                <button class="btn btn-secondary" style="margin-top: 4px;" onclick="showMenu()">← Back to Main Menu</button>
+            </div>
+        </div>
+
+        <!-- 3. ENGLISH SUB-MENU VIEW -->
+        <div id="english-menu-view" class="view hidden">
+            <h2>English Sections</h2>
+            <p class="subtitle">Choose a sub-topic or practice all</p>
+            <div class="menu-grid">
+                <button class="btn btn-sub" onclick="startQuiz('english', 'analogy')">Analogies</button>
+                <button class="btn btn-sub" onclick="startQuiz('english', 'wording')">Wording</button>
+                <button class="btn btn-sub" onclick="startQuiz('english', 'reading')">Reading</button>
+                <button class="btn btn-primary" style="margin-top: 8px;" onclick="startQuiz('english')">All English Questions</button>
+                <button class="btn btn-secondary" style="margin-top: 4px;" onclick="showMenu()">← Back to Main Menu</button>
+            </div>
+        </div>
+
+        <!-- 4. QUIZ VIEW -->
+        <div id="quiz-view" class="view hidden">
+            <div class="header">
+                <button class="back-link" onclick="showMenu()">← Menu</button>
+                <span id="question-progress">Question 1</span>
+                <span>Score: <span id="score-display" style="color: #4f46e5;">0</span></span>
+            </div>
+
+            <div id="no-questions-state" class="hidden" style="text-align: center;">
+                <p id="empty-message" style="margin-bottom: 20px; color: #64748b;">No questions found.</p>
+                <button class="btn btn-secondary" onclick="showMenu()">Back to Menu</button>
+            </div>
+
+            <div id="quiz-content">
+                <img id="question-image" src="" alt="Question Image" class="hidden">
+                <div id="options-container">
+                    <button class="btn option-btn" onclick="selectOption(0)">A</button>
+                    <button class="btn option-btn" onclick="selectOption(1)">B</button>
+                    <button class="btn option-btn" onclick="selectOption(2)">C</button>
+                    <button class="btn option-btn" onclick="selectOption(3)">D</button>
+                </div>
+
+                <div class="nav-row">
+                    <button id="prev-btn" class="btn btn-secondary" onclick="prevQuestion()">Previous</button>
+                    <button id="action-btn" class="btn btn-primary" onclick="handleAction()">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. RESULTS VIEW -->
+        <div id="results-view" class="view hidden" style="text-align: center;">
+            <h2>Quiz Complete!</h2>
+            <h3 id="final-score-text" style="font-size: 1.25rem; color: #4f46e5; margin: 16px 0 24px;">Final Score: 0</h3>
+            <div class="menu-grid">
+                <button class="btn btn-primary" onclick="restartQuiz()">Try Again</button>
+                <button class="btn btn-secondary" onclick="showMenu()">Main Menu</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

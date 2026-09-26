@@ -1,4 +1,32 @@
 const mathQuestions = [
+    { questionNumber: 2, correctAnswer: 'A', category: 'Geometry', imageSrc: 'MathQuizImages/2_A.png' },
+    { questionNumber: 2, correctAnswer: 'D', category: 'Algebra', imageSrc: 'MathQuizImages/2_D.png' },
+    { questionNumber: 65, correctAnswer: 'B', category: 'Word Problem', imageSrc: 'MathQuizImages/65_B.png' },
+    { questionNumber: 66, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/66_C.png' },
+    { questionNumber: 66, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/66b_C.png' },
+    { questionNumber: 67, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/67_C.png' },
+    { questionNumber: 68, correctAnswer: 'B', category: 'Word Problem', imageSrc: 'MathQuizImages/68_B.png' },
+    { questionNumber: 69, correctAnswer: 'D', category: 'Algebra', imageSrc: 'MathQuizImages/69_D.png' },
+    { questionNumber: 70, correctAnswer: 'B', category: 'Word Problem', imageSrc: 'MathQuizImages/70_B.png' },
+    { questionNumber: 72, correctAnswer: 'D', category: 'Word Problem', imageSrc: 'MathQuizImages/72_D.png' },
+    { questionNumber: 73, correctAnswer: 'A', category: 'Word Problem', imageSrc: 'MathQuizImages/73_A.png' },
+    { questionNumber: 74, correctAnswer: 'B', category: 'Word Problem', imageSrc: 'MathQuizImages/74_B.png' },
+    { questionNumber: 75, correctAnswer: 'A', category: 'Geometry', imageSrc: 'MathQuizImages/75_A.png' },
+    { questionNumber: 76, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/76_C.png' },
+    { questionNumber: 77, correctAnswer: 'B', category: 'Geometry', imageSrc: 'MathQuizImages/77_B.png' },
+    { questionNumber: 85, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/85_C.png' },
+    { questionNumber: 86, correctAnswer: 'D', category: 'Word Problem', imageSrc: 'MathQuizImages/86_D.png' },
+    { questionNumber: 87, correctAnswer: 'B', category: 'Algebra', imageSrc: 'MathQuizImages/87_B.png' },
+    { questionNumber: 88, correctAnswer: 'C', category: 'Algebra', imageSrc: 'MathQuizImages/88_C.png' },
+    { questionNumber: 89, correctAnswer: 'B', category: 'Word Problem', imageSrc: 'MathQuizImages/89_B.png' },
+    { questionNumber: 90, correctAnswer: 'C', category: 'Algebra', imageSrc: 'MathQuizImages/90_C.png' },
+    { questionNumber: 91, correctAnswer: 'D', category: 'Word Problem', imageSrc: 'MathQuizImages/91_D.png' },
+    { questionNumber: 93, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/93_C.png' },
+    { questionNumber: 94, correctAnswer: 'B', category: 'Algebra', imageSrc: 'MathQuizImages/94_B.png' },
+    { questionNumber: 95, correctAnswer: 'C', category: 'Algebra', imageSrc: 'MathQuizImages/95_C.png' },
+    { questionNumber: 97, correctAnswer: 'B', category: 'Word Problem', imageSrc: 'MathQuizImages/97_B.png' },
+    { questionNumber: 98, correctAnswer: 'B', category: 'Algebra', imageSrc: 'MathQuizImages/98_B.png' },
+    { questionNumber: 99, correctAnswer: 'B', category: 'Algebra', imageSrc: 'MathQuizImages/99_B.png' },
     // --- 100s Series ---
     { questionNumber: 136, correctAnswer: 'A', category: 'Geometry', imageSrc: 'MathQuizImages/136_A.png' },
     { questionNumber: 138, correctAnswer: 'B', category: 'Geometry', imageSrc: 'MathQuizImages/138_B.png' },
@@ -128,7 +156,11 @@ const mathQuestions = [
     { questionNumber: 660, correctAnswer: 'D', category: 'Word Problem', imageSrc: 'MathQuizImages/660_D.png' },
     { questionNumber: 661, correctAnswer: 'A', category: 'Word Problem', imageSrc: 'MathQuizImages/661_A.png' },
     { questionNumber: 662, correctAnswer: 'C', category: 'Algebra', imageSrc: 'MathQuizImages/662_C.png' },
-    { questionNumber: 664, correctAnswer: 'C', category: 'Word Problem', imageSrc: 'MathQuizImages/664_C.png' }
+    { questionNumber: 663, correctAnswer: 'C', category: 'Word Problem', imageSrc: 'MathQuizImages/663_C.png' },
+    { questionNumber: 664, correctAnswer: 'C', category: 'Word Problem', imageSrc: 'MathQuizImages/664_C.png' },
+
+    { questionNumber: 700, correctAnswer: 'B', category: 'Word Problem', imageSrc: 'MathQuizImages/700_B.png' },
+    { questionNumber: 701, correctAnswer: 'B', category: 'Algebra', imageSrc: 'MathQuizImages/701_B.png' }
 ];
 
 const standardEnglishQuestions = [

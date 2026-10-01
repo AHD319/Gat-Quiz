@@ -223,7 +223,7 @@ const mathQuestions = [
 { questionNumber: 579, correctAnswer: 'A', category: 'Word Problem', imageSrc: 'MathQuizImages/579_A.png' },
 { questionNumber: 581, correctAnswer: 'D', category: 'Algebra', imageSrc: 'MathQuizImages/581_D.png' },
 { questionNumber: 583, correctAnswer: 'D', category: 'Geometry', imageSrc: 'MathQuizImages/583_D.png' },
-{ questionNumber: 584, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/584_C.png' },
+{ questionNumber: 584, correctAnswer: 'A', category: 'Geometry', imageSrc: 'MathQuizImages/584_A.png' },
 { questionNumber: 585, correctAnswer: 'B', category: 'Algebra', imageSrc: 'MathQuizImages/585_B.png' },
 { questionNumber: 587, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/587_C.png' },
 { questionNumber: 588, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/588_C.png' },

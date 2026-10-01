@@ -178,7 +178,7 @@ const mathQuestions = [
 { questionNumber: 524, correctAnswer: 'B', category: 'Algebra', imageSrc: 'MathQuizImages/524_B.png' },
 { questionNumber: 525, correctAnswer: 'A', category: 'Algebra', imageSrc: 'MathQuizImages/525_A.png' },
 { questionNumber: 526, correctAnswer: 'D', category: 'Word Problem', imageSrc: 'MathQuizImages/526_D.png' },
-{ questionNumber: 527, correctAnswer: 'B', category: 'Geometry', imageSrc: 'MathQuizImages/527_B.png' },
+{ questionNumber: 527, correctAnswer: 'A', category: 'Geometry', imageSrc: 'MathQuizImages/527_A.png' },
 { questionNumber: 529, correctAnswer: 'B', category: 'Algebra', imageSrc: 'MathQuizImages/529_B.png' },
 { questionNumber: 530, correctAnswer: 'B', category: 'Algebra', imageSrc: 'MathQuizImages/530_B.png' },
 { questionNumber: 531, correctAnswer: 'A', category: 'Word Problem', imageSrc: 'MathQuizImages/531_A.png' },

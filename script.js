@@ -13,7 +13,7 @@ const mathQuestions = [
     { questionNumber: 74, correctAnswer: 'B', category: 'Word Problem', imageSrc: 'MathQuizImages/74_B.png' },
     { questionNumber: 75, correctAnswer: 'A', category: 'Geometry', imageSrc: 'MathQuizImages/75_A.png' },
     { questionNumber: 76, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/76_C.png' },
-    { questionNumber: 77, correctAnswer: 'B', category: 'Geometry', imageSrc: 'MathQuizImages/77_B.png' },
+    { questionNumber: 77, correctAnswer: 'A', category: 'Geometry', imageSrc: 'MathQuizImages/77_A.png' },
     { questionNumber: 85, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/85_C.png' },
     { questionNumber: 86, correctAnswer: 'D', category: 'Word Problem', imageSrc: 'MathQuizImages/86_D.png' },
     { questionNumber: 87, correctAnswer: 'B', category: 'Algebra', imageSrc: 'MathQuizImages/87_B.png' },

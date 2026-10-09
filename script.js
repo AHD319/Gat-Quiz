@@ -467,39 +467,39 @@ function showPassageModal(title, passageText) {
 }
 
 function prepareEnglishQuestions(category) {
-let analogies = standardEnglishQuestions.filter(q => q.category === 'Analogies');
-let wording = standardEnglishQuestions.filter(q => q.category === 'Wording');
+  // Fallback to Model 1 if activeModel was unset
+  if (!activeModel) activeModel = 1;
 
+  const model = englishData[activeModel];
+  if (!model) {
+    console.error(`Model ${activeModel} not found in englishData.`);
+    return [];
+  }
 
+  // Pull array from activeModel
+  let analogies = model.analogy || model.analogies || [];
+  let wording = model.wording || [];
+  let reading = model.reading || [];
 
-shuffleArray(analogies);
-shuffleArray(wording);
+  // Create clean copies before shuffling
+  analogies = [...analogies];
+  wording = [...wording];
+  reading = [...reading];
 
-let bundlesCopy = JSON.parse(JSON.stringify(readingBundles));
-shuffleArray(bundlesCopy);
+  shuffleArray(analogies);
+  shuffleArray(wording);
+  shuffleArray(reading);
 
-let readingQuestions = [];
-bundlesCopy.forEach(bundle => {
-    bundle.questions.forEach(q => {
-        readingQuestions.push({
-            category: 'Reading: ' + bundle.title,
-            passage: bundle.passageText,
-            questionText: q.questionText,
-            options: q.options,
-            correctAnswer: q.correctAnswer
-        });
-    });
-});
-
-if (category) {
+  if (category) {
     const catLower = category.toLowerCase();
     if (catLower.startsWith('anal')) return analogies;
     if (catLower.startsWith('word')) return wording;
-    if (catLower.startsWith('read')) return readingQuestions;
+    if (catLower.startsWith('read')) return reading;
+  }
+
+  return [...analogies, ...wording, ...reading];
 }
 
-return [...analogies, ...wording, ...readingQuestions];
-}
 function prepareMathQuestions(category) {
     if (!category) return [...mathQuestions];
     const catLower = category.toLowerCase();

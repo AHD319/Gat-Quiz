@@ -660,7 +660,8 @@ const englishData = {
     ],
     wording: [],
     reading: []
-  }
+  },
+    15: { analogy: [], wording: [], reading: [] };
 
 
 

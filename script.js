@@ -524,8 +524,22 @@ function showMenu() {
 switchView('menu-view');
 }
 
+function showEnglishModelsView() {
+  switchView('english-models-view');
+}
+
 function showEnglishMenu() {
-switchView('english-menu-view');
+  showEnglishModelsView(); // Backup alias
+}
+
+function selectEnglishModel(modelNumber) {
+  activeModel = modelNumber;
+  document.getElementById('active-model-title').textContent = `Model ${modelNumber}`;
+  switchView('english-sections-view');
+}
+
+function startEnglishQuiz(category) {
+  startQuiz('english', category);
 }
 
 function showMathMenu() {

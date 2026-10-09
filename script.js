@@ -466,6 +466,19 @@ function showPassageModal(title, passageText) {
     modal.style.display = 'flex';
 }
 
+// 1. Ensure Model selection sets activeModel
+function selectEnglishModel(modelNumber) {
+  activeModel = modelNumber;
+  
+  const titleElement = document.getElementById('active-model-title');
+  if (titleElement) {
+    titleElement.textContent = `Model ${modelNumber}`;
+  }
+  
+  switchView('english-sections-view');
+}
+
+// 2. Safely extract questions from englishData
 function prepareEnglishQuestions(category) {
   // Fallback to Model 1 if activeModel was unset
   if (!activeModel) activeModel = 1;

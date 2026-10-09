@@ -590,7 +590,7 @@ const englishData = {
     wording: [],
     reading: []
   },
- 12: {
+  12: {
     analogy: [
       { category: 'Analogies', questionText: 'Plane : Hangar', options: ["Nest : Bird", "Turtle : Shell", "Fish : Ocean", "Fly : Airplane"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Coffee : Cream', options: ["Tie : Shirt", "Needle : Thread", "Shirt : Tie", "Juice : Drink"], correctAnswer: 'C' },
@@ -612,12 +612,34 @@ const englishData = {
     wording: [],
     reading: []
   },
+  13: {
+    analogy: [
+      { category: 'Analogies', questionText: 'Pamphlet : Book', options: ["Desk : Table", "Stool : Chair", "Paper : Page", "Read : Library"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Illness : Virus', options: ["Accident : Injury", "Trauma : Accident", "Health : Doctor", "Sickness : Bed"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Blindness : Eyes', options: ["Economy : Slump", "Recession : Economy", "Vision : Sight", "Deaf : Ear"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Ray : Beam', options: ["Word : Sentence", "Letter : Character", "Light : Sun", "Alphabet : Text"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Color : Fabric', options: ["Sound : Volume", "Pitch : Sound", "Fabric : Weave", "Bright : Light"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Rocket : Trajectory', options: ["Path : Walker", "Journey : Itinerary", "Flight : Plane", "Map : City"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Fish : School', options: ["Flock : Bird", "Locust : Swarm", "Herd : Cattle", "Animal : Zoo"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Page : Book', options: ["Year : Month", "Season : Year", "Author : Book", "Read : Text"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Winter : Cold', options: ["Freshness : Water", "River : Freshness", "Summer : Season", "Ice : Melt"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Sand : Dunes', options: ["Puddles : Water", "Rain : Ponds", "Wind : Storm", "Snow : Winter"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Copy : Authentic', options: ["Original : Fake", "Reproduce : Original", "Fake : Counterfeit", "Print : Paper"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Dearth : Paucity', options: ["Abundance : Dearth", "Individual : Person", "Group : Crowd", "Few : Many"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Accident : Injury', options: ["Erosion : Wind", "Water : Erosion", "Harm : Danger", "Doctor : Cure"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Electron : Atom', options: ["Fruit : Core", "Seed : Orange", "Cell : Tissue", "Atom : Molecule"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Recall : Forget', options: ["Remember : Mind", "Care : Neglect", "Ignore : Skip", "Memory : Brain"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Presence : Absence', options: ["Follow : Lead", "Precede : Ensue", "Before : Prior", "Time : Clock"], correctAnswer: 'B' }
+    ],
+    wording: [],
+    reading: []
+  },
   14: {
     analogy: [
       { category: 'Analogies', questionText: 'Egg : Oval', options: ["Round : Circle", "Table : Round", "Cube : Square", "Smooth : Surface"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Oil : Greasy', options: ["Sweet : Sugar", "Chilli : Spicy", "Food : Taste", "Hot : Stove"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Watchful : Aware', options: ["Reward : Penalty", "Prize : Reward", "Alert : Sleepy", "Win : Game"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Scroll : Mouse', options: ["Knife : Peel", "Peel : Knife", "Screen : Monitor", "Hand : Hold"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Scroll : Mouse', options: ["Cut : Scissors", "Peel : Knife", "Screen : Monitor", "Hand : Hold"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Ruler : Measure', options: ["Clean : Soap", "Filter : Clean", "Scale : Weight", "Sharp : Knife"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Cry : Sadness', options: ["Anger : Yell", "Gasp : Surprise", "Smile : Teeth", "Fear : Danger"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Water : Swimming', options: ["Climbing : Peak", "Mountain : Climbing", "Ocean : Wave", "Hike : Trail"], correctAnswer: 'B' },
@@ -639,29 +661,8 @@ const englishData = {
     wording: [],
     reading: []
   },
-  13: {
-    analogy: [
-      { category: 'Analogies', questionText: 'Pamphlet : Book', options: ["Chair : Stool", "Stool : Chair", "Paper : Page", "Read : Library"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Illness : Virus', options: ["Accident : Injury", "Trauma : Accident", "Health : Doctor", "Sickness : Bed"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Blindness : Eyes', options: ["Economy : Slump", "Recession : Economy", "Vision : Sight", "Deaf : Ear"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Ray : Beam', options: ["Word : Sentence", "Letter : Character", "Light : Sun", "Alphabet : Text"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Color : Fabric', options: ["Sound : Volume", "Pitch : Sound", "Fabric : Weave", "Bright : Light"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Rocket : Trajectory', options: ["Path : Walker", "Journey : Itinerary", "Flight : Plane", "Map : City"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Fish : School', options: ["Flock : Bird", "Locust : Swarm", "Herd : Cattle", "Animal : Zoo"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Page : Book', options: ["Year : Month", "Season : Year", "Author : Book", "Read : Text"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Winter : Cold', options: ["Freshness : Water", "River : Freshness", "Summer : Season", "Ice : Melt"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Sand : Dunes', options: ["Puddles : Water", "Rain : Ponds", "Wind : Storm", "Snow : Winter"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Copy : Authentic', options: ["Original : Fake", "Reproduce : Original", "Fake : Counterfeit", "Print : Paper"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Dearth : Paucity', options: ["Abundance : Dearth", "Individual : Person", "Group : Crowd", "Few : Many"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Accident : Injury', options: ["Erosion : Wind", "Water : Erosion", "Harm : Danger", "Doctor : Cure"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Electron : Atom', options: ["Fruit : Core", "Seed : Orange", "Cell : Tissue", "Atom : Molecule"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Recall : Forget', options: ["Remember : Mind", "Care : Neglect", "Ignore : Skip", "Memory : Brain"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Presence : Absence', options: ["Follow : Lead", "Precede : Ensue", "Before : Prior", "Time : Clock"], correctAnswer: 'B' }
-    ],
-    wording: [],
-    reading: []
-  },
-    15: { analogy: [], wording: [], reading: [] };
+  15: { analogy: [], wording: [], reading: [] }
+};
 
 
 

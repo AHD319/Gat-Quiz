@@ -20,6 +20,12 @@
         .btn-secondary:hover { background-color: #e2e8f0; color: #0f172a; }
         .btn-sub { background-color: #e0e7ff; color: #3730a3; font-weight: 600; }
         .btn-sub:hover { background-color: #c7d2fe; transform: translateY(-1px); }
+        
+        /* 15 Models Grid Layout */
+        .models-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 16px; max-height: 360px; overflow-y: auto; padding-right: 4px; }
+        .btn-model { background-color: #f8fafc; color: #334155; border: 1.5px solid #e2e8f0; padding: 14px 8px; font-size: 0.95rem; font-weight: 700; border-radius: 10px; width: 100%; cursor: pointer; transition: all 0.2s ease; }
+        .btn-model:hover { background-color: #4f46e5; color: #ffffff; border-color: #4f46e5; transform: translateY(-2px); box-shadow: 0 4px 10px rgba(79, 70, 229, 0.2); }
+
         .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none !important; }
         .option-btn { background-color: #ffffff; color: #334155; border: 2px solid #e2e8f0; text-align: left; justify-content: flex-start; padding: 14px 16px; margin-bottom: 10px; }
         .option-btn:hover:not(:disabled) { border-color: #818cf8; background-color: #f8fafc; }
@@ -37,18 +43,17 @@
     <div class="container">
 
         <!-- 1. MAIN MENU VIEW -->
-<div id="menu-view" class="view">
-    <h1 class="app-title">GAT Prep Quiz</h1>
-    <div style="text-align: center; margin-bottom: 16px;" dir="rtl">
-        <p style="font-family: 'Amiri', 'Traditional Arabic', serif; font-size: 1.25rem; font-weight: 700; color: #1e293b; line-height: 1.8; margin-bottom: 4px;">﴿ وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ ﴾</p>
-        <span style="display: block; font-size: 0.85rem; color: #64748b; font-weight: 600;">[سورة النجم: ٣٩]</span>
-    </div>
-    <div class="menu-grid">
-        <button class="btn btn-primary" onclick="showMathMenu()">Math Quiz</button>
-        <button class="btn btn-primary" style="background-color: #0284c7;" onclick="showEnglishMenu()">English Quiz</button>
-    </div>
-</div>
-        
+        <div id="menu-view" class="view">
+            <h1 class="app-title">GAT Prep Quiz</h1>
+            <div style="text-align: center; margin-bottom: 16px;" dir="rtl">
+                <p style="font-family: 'Amiri', 'Traditional Arabic', serif; font-size: 1.25rem; font-weight: 700; color: #1e293b; line-height: 1.8; margin-bottom: 4px;">﴿ وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ ﴾</p>
+                <span style="display: block; font-size: 0.85rem; color: #64748b; font-weight: 600;">[سورة النجم: ٣٩]</span>
+            </div>
+            <div class="menu-grid">
+                <button class="btn btn-primary" onclick="showMathMenu()">Math Quiz</button>
+                <button class="btn btn-primary" style="background-color: #0284c7;" onclick="showEnglishModelsView()">English Quiz</button>
+            </div>
+        </div>
 
         <!-- 2. MATH SUB-MENU VIEW -->
         <div id="math-menu-view" class="view hidden">
@@ -63,16 +68,40 @@
             </div>
         </div>
 
-        <!-- 3. ENGLISH SUB-MENU VIEW -->
-        <div id="english-menu-view" class="view hidden">
-            <h2>English Sections</h2>
-            <p class="subtitle">Choose a sub-topic or practice all</p>
+        <!-- 3A. ENGLISH MODELS GRID VIEW -->
+        <div id="english-models-view" class="view hidden">
+            <h2>English Models</h2>
+            <p class="subtitle">Select a model to practice</p>
+            <div class="models-grid">
+                <button class="btn-model" onclick="selectEnglishModel(1)">Model 1</button>
+                <button class="btn-model" onclick="selectEnglishModel(2)">Model 2</button>
+                <button class="btn-model" onclick="selectEnglishModel(3)">Model 3</button>
+                <button class="btn-model" onclick="selectEnglishModel(4)">Model 4</button>
+                <button class="btn-model" onclick="selectEnglishModel(5)">Model 5</button>
+                <button class="btn-model" onclick="selectEnglishModel(6)">Model 6</button>
+                <button class="btn-model" onclick="selectEnglishModel(7)">Model 7</button>
+                <button class="btn-model" onclick="selectEnglishModel(8)">Model 8</button>
+                <button class="btn-model" onclick="selectEnglishModel(9)">Model 9</button>
+                <button class="btn-model" onclick="selectEnglishModel(10)">Model 10</button>
+                <button class="btn-model" onclick="selectEnglishModel(11)">Model 11</button>
+                <button class="btn-model" onclick="selectEnglishModel(12)">Model 12</button>
+                <button class="btn-model" onclick="selectEnglishModel(13)">Model 13</button>
+                <button class="btn-model" onclick="selectEnglishModel(14)">Model 14</button>
+                <button class="btn-model" onclick="selectEnglishModel(15)">Model 15</button>
+            </div>
+            <button class="btn btn-secondary" onclick="showMenu()">← Back to Main Menu</button>
+        </div>
+
+        <!-- 3B. ENGLISH MODEL SECTIONS VIEW -->
+        <div id="english-sections-view" class="view hidden">
+            <h2 id="active-model-title">Model 1</h2>
+            <p class="subtitle">Choose a section to begin</p>
             <div class="menu-grid">
-                <button class="btn btn-sub" onclick="startQuiz('english', 'analogy')">Analogies</button>
-                <button class="btn btn-sub" onclick="startQuiz('english', 'wording')">Wording</button>
-                <button class="btn btn-sub" onclick="startQuiz('english', 'reading')">Reading</button>
-                <button class="btn btn-primary" style="margin-top: 8px;" onclick="startQuiz('english')">All English Questions</button>
-                <button class="btn btn-secondary" style="margin-top: 4px;" onclick="showMenu()">← Back to Main Menu</button>
+                <button class="btn btn-sub" onclick="startEnglishQuiz('analogy')">Analogies</button>
+                <button class="btn btn-sub" onclick="startEnglishQuiz('wording')">Wording</button>
+                <button class="btn btn-sub" onclick="startEnglishQuiz('reading')">Reading</button>
+                <button class="btn btn-primary" style="margin-top: 8px;" onclick="startEnglishQuiz('all')">All Questions in this Model</button>
+                <button class="btn btn-secondary" style="margin-top: 4px;" onclick="showEnglishModelsView()">← Back to Models</button>
             </div>
         </div>
 

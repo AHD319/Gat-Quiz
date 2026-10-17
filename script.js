@@ -689,7 +689,28 @@ const englishData = {
       { category: 'Wording', questionText: 'In families, it is ......... uniform for children to have the same personality variation, even in the ......... household.', options: ["hot : cold", "seldom : same", "loud : quiet", "fast : slow"], correctAnswer: 'B' },
       { category: 'Wording', questionText: 'Being good at ......... is the secret to .........', options: ["sleeping : fire", "cooking : water", "wait : success", "flying : dirt"], correctAnswer: 'C' },
       { category: 'Wording', questionText: 'The ......... of sewing patterns can be creatively compared to ......... how to cook.', options: ["shoe : driving", "car : swimming", "phone : flying", "skill : knowing"], correctAnswer: 'D' }
-    ], reading: [] },
+    ], reading: [
+    // Passage 1: The Russian Gold Rush[cite: 19]
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: '1) Who was the gold owned by?', options: ["British and Russia government", "German shipping company", "American divers", "Private investors"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: '2) Where were they sailing to?', options: ["To Britain", "To Russia", "To Germany", "To Murmansk"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: "3) Why didn't Keith Jessop go alone for the search of Edinburgh?", options: ["He didn't have enough money", "He lacked diving equipment", "He was prohibited by law", "He didn't know the location"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: '4) Why was it risky?', options: ["They weren't sure the gold was there", "The weather was extremely cold", "The ship was owned by enemies", "Divers refused to help"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: '5) How did they get the gold?', options: ["They went through the fuel tank", "They used dynamite on the hull", "They lifted the entire ship", "They waited for lower tides"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: '6) Why did they end the search?', options: ["Because of the hurricane", "They ran out of money", "They collected all gold", "The authorities stopped them"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: '7) How many people died?', options: ["Tens", "Hundreds", "None", "Thousands"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: '8) The Gold originally belongs to?', options: ["The Russian government", "The British diving team", "German shipping", "Private museum"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: '9) How many people were aboard when it sunk?', options: ["58", "120", "25", "200"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: '10) Why did they stop the evacuation?', options: ["Because of weather conditions", "Fuel ran out", "Ship malfunctioned", "Divers resigned"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: The Russian Gold Rush]', questionText: "11) Why didn't they collect all the gold?", options: ["The hurricane prevented them", "The rest was stolen", "Money ran out", "Equipment broke"], correctAnswer: 'A' },
+
+    // Passage 2: California Earthquakes[cite: 20]
+    { category: 'Reading Comprehension', passage: '[Passage: California Earthquakes]', questionText: '1) Where do most frequent earthquakes happen?', options: ["California", "Pacific Basin", "Atlantic Ocean", "Mediterranean Sea"], correctAnswer: 'B' },
+    { category: 'Reading Comprehension', passage: '[Passage: California Earthquakes]', questionText: '2) Who else can detect small earthquakes?', options: ["Animals", "Birds only", "Satellites", "Deep sea divers"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: California Earthquakes]', questionText: '3) How many people lost their homes to earthquakes?', options: ["250,000", "28,000", "2,500", "1,000"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: California Earthquakes]', questionText: "4) Why couldn't the fire force put out the fires easily?", options: ["Broken the streets and water systems", "Strong winds spread the fire", "Lack of firemen", "Chemical explosions"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: California Earthquakes]', questionText: '5) How often do big earthquakes happen?', options: ["Once every 100 years/century", "Every year", "Every decade", "Every 500 years"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: California Earthquakes]', questionText: '6) When do scientists expect the next big earthquake to happen?', options: ["Before 2006", "After 2050", "In 2100", "Within 10 years"], correctAnswer: 'A' }
+  ] },
   6: { analogy: [{ category: 'Analogies', questionText: 'Discuss : Argue', options: ["Nibble : Eat", "Whisper : Shout", "Book : Page", "Sun : Rain"], correctAnswer: 'A' },
   { category: 'Analogies', questionText: 'Cotton : Shirt', options: ["Cold : Warm", "Wood : Table", "Fruit : Jam", "Run : Fast"], correctAnswer: 'C' },
   { category: 'Analogies', questionText: 'Sandstorm : Weather', options: ["Pen : Ink", "Tree : Leaf", "Lizard : Reptile", "Dog : Animal"], correctAnswer: 'C' },
@@ -727,7 +748,43 @@ const englishData = {
       { category: 'Wording', questionText: 'The revival of the European, Arabian doctors and philosophers attributed knowledge that europeans learn from even in the twelfth century, and concentrated their knowledge for when they go home which facilitated the progress of science.', options: ["doctors", "attributed", "concentrated", "facilitated"], correctAnswer: 'C' },
       { category: 'Wording', questionText: 'Mohamed entertained the idea of being a doctor. However, his father encouraged him to join the family business.', options: ["entertained", "encouraged", "family", "business"], correctAnswer: 'B' },
       { category: 'Wording', questionText: 'The teacher was a great speaker his colleagues were too dazzled by his posture to question his contentious hypothesis.', options: ["dazzled", "posture", "contentious", "hypothesis"], correctAnswer: 'B' }
-    ], reading: [] },
+    ], reading: [
+    // Passage 1: Taj Mahal[cite: 21]
+    { category: 'Reading Comprehension', passage: '[Passage: Taj Mahal]', questionText: '1) In which of the following countries is the Taj Mahal located?', options: ["India", "Persia", "Turkey", "Egypt"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Taj Mahal]', questionText: '2) Which of the following men had the Taj Mahal built?', options: ["Shah Jahan", "Lord Curzon", "Abdul Haq", "Ustad Ahmad Lahouri"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Taj Mahal]', questionText: '3) What year did Mumtaz Mahal die?', options: ["1631", "1612", "1632", "1658"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Taj Mahal]', questionText: '4) What does the author write about the different area the workers came from?', options: ["To show that they chose the finest of workers.", "To list trade routes", "To explain transportation costs", "To show population diversity"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Taj Mahal]', questionText: '5) What is the meaning of integrated?', options: ["Combined", "Separated", "Modernized", "Decorated"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Taj Mahal]', questionText: '6) For which of the following people was the mausoleum built?', options: ["Mumtaz Mahal", "Arjumand Banu", "Shah Jahan", "Lord Curzon"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Taj Mahal]', questionText: '7) In which of the following cities is the TajMahal located?', options: ["Agra", "Delhi", "Mumbai", "Lahore"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Taj Mahal]', questionText: '8) Which of the following is the word for the false coffin of Mumtaz Mahal inside an eight-sided room in the structure?', options: ["cenotaph", "minaret", "sarcophagus", "mausoleum"], correctAnswer: 'A' },
+
+    // Passage 2: Bees[cite: 22]
+    { category: 'Reading Comprehension', passage: '[Passage: Bees]', questionText: '1) What can you take from the passage?', options: ["The number of queen bees indicates the health of the bee colony.", "Pesticides help bees survive winter", "Bumblebees are unaffected by toxins", "Sugar water changes bee colors"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bees]', questionText: '2) A doctor made a conclusion his conclusion was?', options: ["Informed point of view", "Personal bias", "Unverified rumor", "Mathematical certainty"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bees]', questionText: '3) Who does "this" refer to in the bees passage?', options: ["They refer to the pesticides", "They refer to the insects", "They refer to bumblebees", "They refer to crop fields"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bees]', questionText: '4) Which of the following is FALSE?', options: ["85% of countries killed bees from the use of pesticides", "The number of queen bees indicates the health of the bee colony", "Pesticides have a harmful effect on bees", "Toxin exposure leads to smaller colony size"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bees]', questionText: '5) You can infer that the number of pesticides in an area determines the?', options: ["health of nation", "size of farms", "price of honey", "climate stability"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bees]', questionText: '6) What do you understand from the first paragraph?', options: ["some pesticides in farm corps and in garden are dangerous to bees", "Many pesticides are used to kill bees", "scientists researched more than 100 nations", "Bees navigate easily despite pesticides"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bees]', questionText: '7) Which of the following is TRUE?', options: ["Bees fed pollen and sugar water were lighter", "like what bees eat determine their body color", "Bees are always exposed to pesticides through the nectar they eat", "the workers (bees) brought food back slower in the pesticide beehive"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bees]', questionText: '8) decline of bees.......', options: ["Reducing the range of flowers", "Caused diseases", "Affected humans", "Increased honey production"], correctAnswer: 'C' },
+
+    // Passage 3: Bartering[cite: 23]
+    { category: 'Reading Comprehension', passage: '[Passage: Bartering]', questionText: '1) In the old times people used what as a form of money?', options: ["Bartering", "Paper checks", "Gold coins", "Credit cards"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bartering]', questionText: '2) When did coins become common through Europe?', options: ["Middle Ages", "1200 BCE", "Modern era", "Stone Age"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bartering]', questionText: '3) Coins needed to be?', options: ["Stamped in a certain weight and a fixed value", "Made entirely of bronze", "Large and heavy", "Printed on paper"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bartering]', questionText: '4) Closest meaning to exchanged?', options: ["Trading", "Buying", "Saving", "Printing"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bartering]', questionText: '5) Rice and Grains were rare back then, so they are? What can you infer from the passage?', options: ["Expensive or Had a high value", "Easy to carry", "light weight", "Effective for bartering"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bartering]', questionText: '6) What does (they) refer to?', options: ["Pieces of paper", "Farmers", "Coins", "Cowry shells"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bartering]', questionText: '7) What does it take about in paragraph (1)?', options: ["They bartered instead of using money", "Paper currency was invented in Europe", "Coins were made of gold and silver", "Banks stored wheat sacks"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Bartering]', questionText: '8) Meaning of frequently?', options: ["usually", "rarely", "never", "suddenly"], correctAnswer: 'A' },
+
+    // Passage 4: Porsche 911[cite: 24]
+    { category: 'Reading Comprehension', passage: '[Passage: Porsche 911]', questionText: '1) What does "he" refer to in the passage?', options: ["Ferdinand Alexander Porsche", "Manny Alban", "Ferry Porsche", "Ferdinand Porsche (grandfather)"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Porsche 911]', questionText: '2) What enthusiast means in "car enthusiast."?', options: ["Admirer", "Driver", "Mechanic", "Seller"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Porsche 911]', questionText: "3) When did FA Porsche's become head of the Porsche group?", options: ["a round 5 years after he joined", "10 years after he joined", "Immediately upon joining", "In 1990"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Porsche 911]', questionText: '4) What is true based on the passage? or what did FA focus on more on the cars after he became the head of the company?', options: ["He cared for function more than decoration", "He prioritized decorative features", "He stopped using six-cylinder engines", "He renamed the car Peugeot"], correctAnswer: 'A' }
+  ] },
  7: {
     analogy: [
       { category: 'Analogies', questionText: 'Touch : Hit', options: ["Sprint : Jog", "Talk : Shout", "Speak : Converse", "Cook : Serve"], correctAnswer: 'B' },
@@ -767,7 +824,38 @@ const englishData = {
       { category: 'Wording', questionText: 'A group of scientists spent several weeks diving with whale sharks in the Galapagos Islands last summer and fall in an attempt to solve some of the most enduring mysteries. They tried some never-before-used focus on the species in the wild: taking blood samples and doing ultrasound exams.', options: ["diving", "enduring", "focus", "samples"], correctAnswer: 'C' },
       { category: 'Wording', questionText: 'Tokyo is a large city with a population of 38 million people. It is considered an isolated metropolitan area, and one day or one trip is not enough to explore the whole city. It is also a great city for wanderers.', options: ["isolated", "metropolitan", "explore", "wanderers"], correctAnswer: 'A' }
     ],
-    reading: []
+    reading: [
+    // Passage 1: Learning Gap Between Kids
+    { category: 'Reading Comprehension', passage: '[Passage: Learning Gap Between Kids]', questionText: '1) What the point of this learning technique?', options: ["Stop the difference between the rich kids and the poor", "Encourage kids to stay indoors", "Increase the difficulty of school exams", "Eliminate physical activities from playgrounds"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Learning Gap Between Kids]', questionText: '2) What was used in the park for learning math?', options: ["Puzzles", "Hopscotch", "Calculators", "Flashcards"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Learning Gap Between Kids]', questionText: '3) What does stimulate mean?', options: ["Force", "Design", "Inspire", "Prevent"], correctAnswer: 'C' },
+    { category: 'Reading Comprehension', passage: '[Passage: Learning Gap Between Kids]', questionText: "4) What is the author's main point?", options: ["Rich learning environment helps the wealthy", "Learning gaps can be noticed from a very young age", "Parks are bad environments for education", "Children learn best without teacher guidance"], correctAnswer: 'B' },
+    { category: 'Reading Comprehension', passage: '[Passage: Learning Gap Between Kids]', questionText: '5) According to the passage, which of the following is stated as a fact?', options: ["Children with early linguistic skills achieve greater success later in life.", "Poor children cannot learn mathematics", "Public parks are built for mathematics practice", "Linguistic skills develop only in high schools"], correctAnswer: 'A' },
+
+    // Passage 2: USS Independence
+    { category: 'Reading Comprehension', passage: '[Passage: USS Independence]', questionText: '1) When was the USS Independence ship used ?', options: ["World War 2", "World War 1", "Cold War", "Vietnam War"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: USS Independence]', questionText: '2) Which of the options did the writer state as a fact?', options: ["The research ship was named Nautilus", "The ship was entirely undamaged", "The atomic bomb tests failed", "The wreckage was found immediately"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: USS Independence]', questionText: '3) When was the USS Independence ship disposed of ?', options: ["After World War 2 (1951)", "During World War 1", "In 2016", "Before World War 2"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: USS Independence]', questionText: '4) Meaning of scuttled?', options: ["sunk on purpose", "repaired quickly", "sold to private buyers", "abandoned at port"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: USS Independence]', questionText: '5) How many unmanned submarines have the scientists deployed?', options: ["2", "5", "10", "1"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: USS Independence]', questionText: '6) According to Dr. Ballard, what was surprising about the wreckage?', options: ["It was in great shape", "It had active explosives", "It was completely destroyed", "It was filled with treasure"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: USS Independence]', questionText: '7) When was the ship used for atomic bombs tests', options: ["World war 1", "World war 2", "2016", "1890"], correctAnswer: 'B' },
+
+    // Passage 3: Turkey Whistling
+    { category: 'Reading Comprehension', passage: '[Passage: Turkey Whistling]', questionText: '1) What was their language?', options: ["Whistling language", "Sign language", "Morse code", "Standard Turkish"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Turkey Whistling]', questionText: '2) What landscape does a country in Turkey have?', options: ["Mountainous", "Flat desert", "Coastal plains", "Dense jungle"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Turkey Whistling]', questionText: '3) What language do the villagers speak?', options: ["Whistling language", "Birdsong", "Foreign dialects", "Silent gestures"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Turkey Whistling]', questionText: '4) In the meaning who still uses this language?', options: ["shepherds and Kuskoy villagers", "City tourists", "Mobile phone sellers", "Foreign sailors"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Turkey Whistling]', questionText: '5) Meaning of advances ?', options: ["improvements", "delays", "problems", "costs"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Turkey Whistling]', questionText: "6) What's the meaning of update?", options: ["modernize", "destroy", "forget", "cancel"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Turkey Whistling]', questionText: '7) What did the writer say about phones ?', options: ["They are a more private way to message", "They connect houses together", "They transmit whistles better", "They are banned in Kuşköy"], correctAnswer: 'A' },
+
+    // Passage 4: Dementia
+    { category: 'Reading Comprehension', passage: '[Passage: Dementia]', questionText: '1) How many institutions participated in the experiment?', options: ["69", "800", "869", "120"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Dementia]', questionText: '2) What did Prof Clive Ballard Mention about dementia institutes?', options: ["That they are excellent", "That they differ( vary )", "That they are average", "That they are high"], correctAnswer: 'B' },
+    { category: 'Reading Comprehension', passage: '[Passage: Dementia]', questionText: '3) What does social interaction do to people with dementia?', options: ["Improve their quality of life", "Increase agitation levels", "Cause memory loss", "Has no measurable effect"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Dementia]', questionText: '4) What did the people who participate in the program do?', options: ["They continued with their usual treatment", "They took part for nine months", "They volunteered to join", "They support the NIHR"], correctAnswer: 'B' }
+  ]
   },
  8: {
     analogy: [
@@ -811,7 +899,28 @@ const englishData = {
       { category: 'Wording', questionText: 'I\'ve learned to share my............with others and keep my......... to myself.', options: ["food : stove", "water : ice", "fire : cold", "Happiness : sorrow"], correctAnswer: 'D' },
       { category: 'Wording', questionText: 'The actor always wore a mask and..............his face, so it was exciting to see what he looked like when he finally ........... himself.', options: ["hid : revealed", "cooked : ate", "swam : drank", "slept : woke"], correctAnswer: 'A' }
     ],
-    reading: []
+    reading: [
+    // Passage 1: Stars
+    { category: 'Reading Comprehension', passage: '[Passage: Stars]', questionText: '1) The general idea of the passage is ?', options: ["Stars can be classified based on colors and size", "All stars are the same temperature", "Ordinary cameras cannot photograph stars", "Superstars are the smallest celestial bodies"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Stars]', questionText: '2) All are characteristics astronomers use to classify a star except for?', options: ["shape", "color", "size", "brightness"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Stars]', questionText: '3) Which can be said about Betelgeuse?', options: ["It's about 17,000 times the size of a sun", "It is 40,000 times larger than the sun", "It cannot be measured with light meters", "It is a red superstar"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Stars]', questionText: '4) What does "IT" in paragraph one refer to?', options: ["The camera", "The night sky", "The star", "The photo"], correctAnswer: 'A' },
+
+    // Passage 2: World War II
+    { category: 'Reading Comprehension', passage: '[Passage: World War II]', questionText: '1) Why were modern weapons able to destroy whole cities?', options: ["because they were sophisticated and more advanced", "because cities lacked defense troops", "because airfields were unprotected", "because winter weather weakened walls"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: World War II]', questionText: '2) How much did the war cost?', options: ["More than any three previous wars", "Less than World War 1", "Equivalent to a single nation's GDP", "Exactly 60 million dollars"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: World War II]', questionText: '3) Why did people not think about long-term future?', options: ["Because they were busy with the daily problems", "Because they expected another war immediately", "Because government laws prohibited long planning", "Because infrastructure was fully rebuilt"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: World War II]', questionText: '4) What happened after the war of ww2 ?', options: ["Disaster remained", "Economies recovered in days", "Diseases vanished entirely", "All refugees returned home immediately"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: World War II]', questionText: '5) Meaning of Perplexed?', options: ["confused", "excited", "relieved", "organized"], correctAnswer: 'A' },
+
+    // Passage 3: Writers
+    { category: 'Reading Comprehension', passage: '[Passage: Writers]', questionText: '1) Which of the following is not TRUE?', options: ["Writing is a simple task", "Writing is time consuming", "Writing is a fun task", "Writers sometimes don't finish their work"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Writers]', questionText: '2) What do many people assume about authors?', options: ["Writing is a simple task", "Authors write without revisions", "Books are generated automatically", "Publishing is always fast"], correctAnswer: 'A' },
+
+    // Passage 4: Civil Engineers and Growing Urban Areas
+    { category: 'Reading Comprehension', passage: '[Passage: Civil Engineers and Growing Urban Areas]', questionText: '1) What does rudimentary mean?', options: ["Fundamental", "Complex", "Modern", "Expensive"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Civil Engineers and Growing Urban Areas]', questionText: '2) Which one might pose as a problem to civil engineers?', options: ["Many citizens moving in", "Lack of heavy machinery", "Low property taxes", "Decreasing city populations"], correctAnswer: 'A' }
+  ]
   },
   9: {
     analogy: [

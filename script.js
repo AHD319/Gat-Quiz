@@ -919,7 +919,17 @@ const englishData = {
 
     // Passage 4: Civil Engineers and Growing Urban Areas
     { category: 'Reading Comprehension', passage: '[Passage: Civil Engineers and Growing Urban Areas]', questionText: '1) What does rudimentary mean?', options: ["Fundamental", "Complex", "Modern", "Expensive"], correctAnswer: 'A' },
-    { category: 'Reading Comprehension', passage: '[Passage: Civil Engineers and Growing Urban Areas]', questionText: '2) Which one might pose as a problem to civil engineers?', options: ["Many citizens moving in", "Lack of heavy machinery", "Low property taxes", "Decreasing city populations"], correctAnswer: 'A' }
+    { category: 'Reading Comprehension', passage: '[Passage: Civil Engineers and Growing Urban Areas]', questionText: '2) Which one might pose as a problem to civil engineers?', options: ["Many citizens moving in", "Lack of heavy machinery", "Low property taxes", "Decreasing city populations"], correctAnswer: 'A' },
+
+    // Passage 5: Alternative Medicine
+    { category: 'Reading Comprehension', passage: '[Passage: Alternative Medicine]', questionText: '1) Few practitioners of alternative medicine..?', options: ["Consider their therapies to be complete replacements for modern medicine.", "Reject all forms of western treatment", "Have formal medical degrees", "Refuse to use herbalism"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Alternative Medicine]', questionText: '2) Alternative therapies..?', options: ["Are becoming more popular with many doctors.", "Are completely banned by WHO", "Have no effective results", "Are ineffective"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Alternative Medicine]', questionText: '3) Western medicine..?', options: ["Has existed for a comparatively short time.", "Has been used for thousands of years", "Rejects all scientific research", "Is only based on herbal remedies"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Alternative Medicine]', questionText: '4) The World Health Organization..?', options: ["Will support effective traditional knowledge and skills.", "Plans to ban acupuncture", "Refuses to recognize herbal compounds", "Only supports western surgical methods"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Alternative Medicine]', questionText: '5) How do doctors feel about alternative medicine?', options: ["They're suspicious", "They are highly favorable", "They are completely indifferent", "They strictly encourage it"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Alternative Medicine]', questionText: '6) Why is alternative medicine becoming more popular?', options: ["Because people are realizing the limitations of science", "Because modern medicine is too cheap", "Because WHO banned western drugs", "Because herbal remedies are illegal"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Alternative Medicine]', questionText: '7) How does the WHO feel about alternative medicine?', options: ["Favorable", "Suspicious", "Hostile", "Unconcerned"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Alternative Medicine]', questionText: '8) What was mainly used as alternative medicine before modern medicine was developed?', options: ["Herbal Medicine", "Surgeries", "Synthetic antibiotics", "Laser treatments"], correctAnswer: 'A' }
   ]
   },
   9: {
@@ -965,7 +975,38 @@ const englishData = {
       { category: 'Wording', questionText: 'Humans crafted types of chairs from wood for ages. Ancestors solved the problem by chopping down trees, creating everything from small huts built with twigs to buildings with large timbers.', options: ["chairs", "crafted", "chopping", "buildings"], correctAnswer: 'A' },
       { category: 'Wording', questionText: 'A city official was opposed to the idea of building something adjacent to a park and that it was going to be rejected by 8ft wall.', options: ["opposed", "rejected", "adjacent", "building"], correctAnswer: 'B' }
     ],
-    reading: []
+    reading: [
+    // Passage 1: Chinese Tea
+    { category: 'Reading Comprehension', passage: '[Passage: Chinese Tea]', questionText: '1) What is the surprising fact about the invention of tea?', options: ["It happened by accident", "It was invented by doctors", "It took hundreds of years to discover", "It was imported from Europe"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Chinese Tea]', questionText: "2) What couldn't the leaf caretakers do?", options: ["Eat foods with strong odor and strong spices", "Speak while harvesting", "Work during the daytime", "Drink tea during work"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Chinese Tea]', questionText: '3) What is closest in meaning to character?', options: ["Symbol", "Person", "Letter", "Story"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Chinese Tea]', questionText: '4) Why was black tea better than green?', options: ["Foreign traders", "It was cheaper", "It tasted sweeter", "It was easier to grow"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Chinese Tea]', questionText: '5) What can you infer from this phrase "No longer merely used for its medicinal properties" mean?', options: ["Before they were using it for treatment", "It is no longer healthy", "Only doctors drink tea", "It is banned in medicine"], correctAnswer: 'A' },
+
+    // Passage 2: St. Pierre Volcano
+    { category: 'Reading Comprehension', passage: '[Passage: St. Pierre Volcano]', questionText: '1) What did Herbert think of the Modern man?', options: ["Had lost the ability to move efficiently and effectively in all but the most routine environments", "Was physically stronger than indigenous peoples", "Was better prepared for natural disasters", "Had mastered survival in all terrains"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: St. Pierre Volcano]', questionText: '2) What role did Larry play in the eruption?', options: ["He got people to safety", "He rebuilt the town", "He stopped the lava flow", "He predicted the volcano eruption"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: St. Pierre Volcano]', questionText: '3) What does Epiphany mean as used in paragraph?', options: ["Discovery", "Confusion", "Disaster", "Tradition"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: St. Pierre Volcano]', questionText: '4) Why did the author mention the parkour quote (quote: Etre fort, etre utile)"', options: ["To show that it originated from France", "To confirm how both physical and mental strength are important for helping others", "To convince the reader of his ideas", "To explain the military hierarchy"], correctAnswer: 'B' },
+    { category: 'Reading Comprehension', passage: '[Passage: St. Pierre Volcano]', questionText: '5) When did the volcano erupt?', options: ["1902", "1950", "1800", "1981"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: St. Pierre Volcano]', questionText: "6) What did Larry's natural method lead to?", options: ["The specials forces", "Joining the military", "Man made obstacles", "The path of the warrior"], correctAnswer: 'D' },
+
+    // Passage 3: Flow State in Psychology
+    { category: 'Reading Comprehension', passage: '[Passage: Flow State in Psychology]', questionText: '1) What is the phrase the author uses for "flow":', options: ["being in the zone", "hyperfocus", "mindfulness", "being carried away"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Flow State in Psychology]', questionText: '2) Why does the author mention occupational therapy (OT)?', options: ["Because the term flow is used in OT", "To explain ADHD treatments", "To replace positive psychology", "To discourage hyperfocus"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Flow State in Psychology]', questionText: "3) What's the main difference between flow and hyper-focus?", options: ["hyper focus can be negative, flow can be positive", "flow only happens during sports", "hyperfocus requires no attention", "there is no difference between them"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Flow State in Psychology]', questionText: '4) How does the author describe the flow?', options: ["being carried away", "feeling stressed", "mind wandering", "intense effort"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Flow State in Psychology]', questionText: '5) Why is it called flow?', options: ["Because people describe it as being carried away", "Because it involves water activities", "Because thoughts stop moving", "Because it causes rapid fatigue"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Flow State in Psychology]', questionText: '6) What can replace flow ?', options: ["positive psychology", "mental state", "being in zone", "mindfulness"], correctAnswer: 'C' },
+    { category: 'Reading Comprehension', passage: '[Passage: Flow State in Psychology]', questionText: '7) What does the summary of the passage talks about?', options: ["the positives and negatives psychological state", "the history of occupational therapy", "how to cure ADHD", "mindfulness exercises"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Flow State in Psychology]', questionText: "8) What's the closest meaning to metaphor?", options: ["Idea", "Definition", "Fact", "Emotion"], correctAnswer: 'A' },
+
+    // Passage 4: Railways
+    { category: 'Reading Comprehension', passage: '[Passage: Railways]', questionText: '1) Which is a fact ?', options: ["The first steam powered railway was established in 1830", "Railways were invented in Asia", "Train travel was free for all citizens", "Steam engines were outlawed in 1830"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Railways]', questionText: "2) Why didn't people know about other cities?", options: ["Because they couldn't reach them", "Because news was illegal", "Because cities had no names", "Because map drawing was prohibited"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Railways]', questionText: '3) What does Impediment mean as used in paragraph 2?', options: ["Difficulty", "Advantage", "Speed", "Vehicle"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Railways]', questionText: '4) What does the author mean by local knowledge?', options: ["Knowledge was restricted", "People knew global news", "Books were widely available", "Travelers taught local schools"], correctAnswer: 'A' }
+  ]
   },
   10: {
     analogy: [
@@ -1010,7 +1051,27 @@ const englishData = {
       { category: 'Wording', questionText: 'Although I had a wonderful time during my............, I was..........to return home.', options: ["vacation : happy", "breakfast : cold", "sleep : dark", "shoe : fast"], correctAnswer: 'A' },
       { category: 'Wording', questionText: 'Khalid ...........and shy and often spends time with his.............', options: ["is loudly : cars", "quite : friends", "is heavy : doors", "is fast : tables"], correctAnswer: 'B' }
     ],
-    reading: []
+    reading: [
+    // Passage 1: Angola Doctor
+    { category: 'Reading Comprehension', passage: '[Passage: Angola Doctor]', questionText: '1) Where did Kristy used to work?', options: ["Southern England", "Angola", "Horsens", "Northern France"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Angola Doctor]', questionText: '2) Why did Kristy change her job?', options: ["It wasn't exciting enough", "She was fired", "The salary was too low", "She wanted to stop practicing medicine"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Angola Doctor]', questionText: '3) What is the aim of the organization?', options: ["to help the ill", "to train armies", "to build hospitals in Europe", "to conduct medical research"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Angola Doctor]', questionText: '4) What does Kristy plan to do after she left Angola ?', options: ["Come back to Africa someday", "Retire in England", "Quit her medical career", "Move to Asia"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Angola Doctor]', questionText: '5) Where does Kristy work now?', options: ["in Angola", "in Southern England", "in Horsens", "in Serry"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Angola Doctor]', questionText: '6) Why is the health there poor?', options: ["Because of the militant groups", "Because of cold weather", "Because patients refuse treatment", "Because doctors are poorly trained"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Angola Doctor]', questionText: "7) What are Kristy's thoughts on her job in Angola?", options: ["She is satisfied with it", "She regrets leaving England", "She finds it too dangerous", "She feels useless"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Angola Doctor]', questionText: '8) How long did she stay in Angola ?', options: ["8 months", "34 years", "2 decades", "1 year"], correctAnswer: 'A' },
+
+    // Passage 2: Football Match
+    { category: 'Reading Comprehension', passage: '[Passage: Football Match]', questionText: '1) Why does no one go to matches anymore?', options: ["because it's not secure", "because ticket prices doubled", "because stadiums are closed", "because matches are illegal"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Football Match]', questionText: '2) What should someone do if they go to a match? Or what did the writer suggest?', options: ["not leave their kids by themselves", "bring their own seats", "avoid watching the game", "hire private security"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Football Match]', questionText: '3) What happened to a big club in the last six games?', options: ["didn't score a single goal", "won every single match", "lost their stadium license", "changed their manager"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Football Match]', questionText: '4) What is happening in recent times ?', options: ["Not a lot of people go to football matches like before", "More families are attending games", "Players are earning less money", "Stadiums are expanding"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Football Match]', questionText: '5) How was the match the writer talked about?', options: ["boring", "exciting", "dangerous", "unpredictable"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Football Match]', questionText: '6) What should they do so people start coming again? Or how will young people learn manners?', options: ["The players should practice self-control.", "Lower ticket prices", "Ban fans under 18", "Cancel major tournaments"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Football Match]', questionText: '7) This was written for what?', options: ["for the newspaper", "for a sports magazine", "for a personal blog", "for a school textbook"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Football Match]', questionText: '8) What is needed to get more spectators?', options: ["make the field secure", "score 5-5 goals every match", "allow fans on the field", "hire younger reporters"], correctAnswer: 'A' }
+  ]
   },
   11: {
     analogy: [
@@ -1053,7 +1114,34 @@ const englishData = {
       { category: 'Wording', questionText: 'Increased urbanization and infrastructure development, which have expanded lifestyle patterns, in addition to affecting energy levels and overall satisfaction are declining among residents.', options: ["urbanization", "lifestyle", "satisfaction", "residents"], correctAnswer: 'C' },
       { category: 'Wording', questionText: 'Sara felt moody and irritable. She couldn\'t consider and the quality of her work was getting worse. She knew she wasn\'t getting enough sleep and decided to visit a therapist.', options: ["irritable", "consider", "quality", "therapist"], correctAnswer: 'B' }
     ],
-    reading: []
+    reading: [
+    // Passage 1: Khubali Khan
+    { category: 'Reading Comprehension', passage: '[Passage: Khubali Khan]', questionText: '1) Domestic trade was difficult in the empire because?', options: ["The diversity of currencies", "High taxation rates", "Lack of trade routes", "Foreign invasions"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Khubali Khan]', questionText: "2) The emperor's decision can be described as?", options: ["regressive", "progressive", "foolish", "traditional"], correctAnswer: 'B' },
+    { category: 'Reading Comprehension', passage: '[Passage: Khubali Khan]', questionText: '3) The main idea of the passage is?', options: ["How money does NOT necessarily have to be represented by precious substances", "Marco Polo's journey to Asia", "The collapse of ancient coin systems", "Algorithms in modern banking"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Khubali Khan]', questionText: '4) What can be understood from paragraph (4)?', options: ["Finance and the concept of money seemed easier to understand in the past", "Computer algorithms are completely reliable", "Paper money was invented in Europe", "Cowrie shells had no value"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Khubali Khan]', questionText: '5) "Embarked on" means?', options: ["started", "finished", "canceled", "discussed"], correctAnswer: 'A' },
+
+    // Passage 2: Psychology Books
+    { category: 'Reading Comprehension', passage: '[Passage: Psychology Books]', questionText: '1) The passage can be described as?', options: ["an introduction to a reading list", "a critique of college courses", "a biography of a psychologist", "a research methodology paper"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Psychology Books]', questionText: '2) Prospective psychology students should be?', options: ["familiar with the scientific method", "uninterested in research", "focused only on sales", "opposed to reading books"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Psychology Books]', questionText: '3) What does "Delve into" mean?', options: ["explore", "ignore", "avoid", "summarize"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Psychology Books]', questionText: '4) According to the last paragraph?', options: ["Successful books tend to be used for a long time", "Psychology books go out of date quickly", "Students prefer digital articles", "Scientists reject popular psychology books"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Psychology Books]', questionText: '5) What does "them" refer to?', options: ["Monetary Systems", "Psychology books", "Students", "Colleges"], correctAnswer: 'A' },
+
+    // Passage 3: Elsie
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: "1) What do you understand by Elsie's sleeping habits?", options: ["dominated her mother's life", "improved significantly", "never bothered her parents", "were strictly regulated"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: "2) Elsie's parents are lucky because?", options: ["Help is nearby", "Elsie sleeps 11 hours", "They live in London", "They work from home"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: '3) What is the author\'s tone "feel" toward the highlighted sentence?', options: ["sympathetic", "critical", "angry", "humorous"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: '4) Sleep deprivation in children?', options: ["Has increased substantially over the years", "Has completely disappeared", "Only affects teenagers", "Is easily cured with medicine"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: '5) The problem has proven to be?', options: ["very expensive", "very cheap", "harmless", "temporary"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: '6) What does "Took a toll on" mean?', options: ["Takes harm", "Gives reward", "Improves health", "Saves time"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: '7) What is the purpose of the passage?', options: ["Raise awareness about sleep-deprived children", "Promote electronic devices for toddlers", "Criticize the NHS services", "Advertise pediatric clinics"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: '8) What is the purpose Vicki is required to understand?', options: ["how parents of sleep-deprived children feel.", "how to operate a medical clinic", "how to sleep 8 hours a day", "how to write sleep research books"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: '9) What does GP mean?', options: ["Medical doctor", "General program", "Global phone", "Group practice"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: "10) Describe what's happening in paragraph 2?", options: ["Jayne risks being late to work to allow her daughter to sleep", "Jayne sleeps in her car every morning", "Jayne quits her job to stay home", "Elsie wakes up early every day"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Elsie]', questionText: '11) What is the main idea of paragraph 3?', options: ["Jayne is getting tired of looking after the household and with Elsie sleeping problems.", "Nick Accuses Jayne of being a bad parent", "Elsie is sleeping down stairs with Jayne and him", "The daughters sleeping problem is dominating her mother 's life"], correctAnswer: 'D' }
+  ]
   },
   12: {
     analogy: [
@@ -1097,7 +1185,44 @@ const englishData = {
       { category: 'Wording', questionText: 'His characteristically accommodating views on examination methods at university level have aroused antagonism in those who want to introduce innovative and flexible patterns of assessment.', options: ["accommodating", "antagonism", "innovative", "assessment"], correctAnswer: 'A' },
       { category: 'Wording', questionText: 'Even after a century of cursory investigation, the relation of the solar cycle to terrestrial weather remains enigmatic.', options: ["cursory", "relation", "remains", "enigmatic"], correctAnswer: 'A' }
     ],
-    reading: []
+    reading: [
+    // Passage 1: Nasa Space Shuttles
+    { category: 'Reading Comprehension', passage: '[Passage: Nasa Space Shuttles]', questionText: '1) What is the California Science Centre?', options: ["Space Museum", "NASA headquarters", "A rocket launchpad", "An astronomy school"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Nasa Space Shuttles]', questionText: "2) What wasn't included of the stuff that the smithsonians wanted from nasa?", options: ["Orbiters", "Artifacts", "Diapers", "Landers"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Nasa Space Shuttles]', questionText: '3) What does clamoring mean in the passage?', options: ["Pursue Loudly", "Reject quietly", "Donate freely", "Ignore completely"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Nasa Space Shuttles]', questionText: '4) What is the Smithsonian?', options: ["A museum", "Science center", "NASA Shuttles", "A space center"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Nasa Space Shuttles]', questionText: '5) Who does "their" refer to?', options: ["the museums", "Smithsonian's", "Astronauts", "Engineers"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Nasa Space Shuttles]', questionText: '6) Who does "they" refer to?', options: ["Nasa", "Museums", "Orbiters", "Scientists"], correctAnswer: 'A' },
+
+    // Passage 2: Seal Whiskers
+    { category: 'Reading Comprehension', passage: '[Passage: Seal Whiskers]', questionText: '1) What best title that suits this passage?', options: ["Whiskers at works", "Deep Sea Diving", "The Life of Henry", "Murky Waters"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Seal Whiskers]', questionText: '2) Which of the following can they NOT detect underwater?', options: ["Alternations in their surrounding", "Seizing skimming fish", "Size of prey", "Movement of water"], correctAnswer: 'B' },
+
+    // Passage 3: Marshmallow Experiment
+    { category: 'Reading Comprehension', passage: '[Passage: Marshmallow Experiment]', questionText: '1) Who were the "rewarded delayers" in the passage?', options: ["The kids who did not eat the marshmallow at once", "The kids who ate the pretzel immediately", "The researchers at Stanford", "The parents of the children"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Marshmallow Experiment]', questionText: '2) What do we learn from the passage about leading a successful life?', options: ["you are more likely to lead one by practicing impulse control.", "eating marshmallows improves SAT scores", "waiting 15 minutes guarantees wealth", "Stanford students are healthier"], correctAnswer: 'A' },
+
+    // Passage 4: Mind reading
+    { category: 'Reading Comprehension', passage: '[Passage: Mind reading]', questionText: '1) What did they use to fly on?', options: ["Brain activity", "Computer Screen", "Virtual machine", "Physical controls"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Mind reading]', questionText: '2) What does conjuring trick mean?', options: ["illusion", "truth", "invention", "obstacle"], correctAnswer: 'A' },
+
+    // Passage 5: Multinational Companies
+    { category: 'Reading Comprehension', passage: '[Passage: Multinational Companies]', questionText: '1) What is the meaning of stagnant?', options: ["unchanged", "growing fast", "declining", "unstable"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Multinational Companies]', questionText: '2) What is the meaning of protrude?', options: ["bulge", "shrink", "flatten", "disappear"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Multinational Companies]', questionText: "3) What's the best title for multinational?", options: ["USA reviving, China consuming", "Foreign investments in the US", "The coming market of multinational", "China: put all of your chips on China"], correctAnswer: 'C' },
+    { category: 'Reading Comprehension', passage: '[Passage: Multinational Companies]', questionText: '4) Increase of Chinese economy?', options: ["9.1%", "2%", "15%", "5%"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Multinational Companies]', questionText: '5) The investments of multinational companies in China are?', options: ["Not something new / nothing new", "a cause of the rise in China's economy", "illegal under international law", "declining rapidly"], correctAnswer: 'A' },
+
+    // Passage 6: Sami reindeers
+    { category: 'Reading Comprehension', passage: '[Passage: Sami reindeers]', questionText: '1) What is the basis of Sami economy?', options: ["Reindeer Herding", "Norway", "Tourism", "Ski manufacturing"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Sami reindeers]', questionText: '2) What is it that we take from paragraph 4?', options: ["There is a strong connection between language and culture.", "All Sami people speak Norwegian", "Skiing is required by law", "Reindeer herding is completely extinct"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Sami reindeers]', questionText: '3) What does the word "Jagged" mean?', options: ["Rugged", "Irregular", "Notched", "Wild"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Sami reindeers]', questionText: '4) What do Sami Herders focus on achieving in their tradition of reindeer herding?', options: ["becoming one with the herd.", "selling expensive skis", "building permanent fences", "moving to southern Norway"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Sami reindeers]', questionText: '5) How do you describe the treatment of young Sari herders in the compulsory boarding school?', options: ["Discrimination, because they were forbidden from speaking their own language.", "Supportive, because they learned modern ski techniques", "Fair and equal to all Norwegian students", "Irrelevant to their traditional lifestyle"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Sami reindeers]', questionText: '6) What keeps the herdsman busy?', options: ["His reindeer herd", "Boarding school", "Norwegian policies", "Ski maintenance"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Sami reindeers]', questionText: '7) What was the grazing effect on Sami Reindeers?', options: ["more geographically restricted", "freely roaming anywhere", "increased in population tenfold", "unaffected by modern fences"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Sami reindeers]', questionText: '8) What can we infer about the earlier Norwegian policies toward the Sami reindeer herders?', options: ["compulsory", "autonomous", "Discrimination", "Helpful"], correctAnswer: 'C' }
+  ]
   },
   13: {
     analogy: [
@@ -1144,7 +1269,36 @@ const englishData = {
       { category: 'Wording', questionText: 'Although humankind has not been able to travel outside its environment beyond space, scientists believe that in the near future it could become a multi-planetary species that can reach neighboring planets, such as Mars.', options: ["environment", "species", "neighboring", "planets"], correctAnswer: 'A' },
       { category: 'Wording', questionText: 'In hot and humid climates, sweat production increases, leading to salt loss and physical exertion increases this effect. Exchanging body salt is not always recommended, as it may disturb water and salt balance and reduce performance efficiency.', options: ["increases", "exertion", "Exchanging", "recommended"], correctAnswer: 'C' }
     ],
-    reading: []
+    reading: [
+    // Passage 1: Hawaiian Cowboys
+    { category: 'Reading Comprehension', passage: '[Passage: Hawaiian Cowboys]', questionText: '1) In paragraph one, which is true about Hawaiian Cowboys?', options: ["Traditional Cowboys", "As old as American cowboys", "Influencers in American cowboy culture", "Modern entertainers"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Hawaiian Cowboys]', questionText: '2) Who asked for the Vaqueros help?', options: ["Hawaiians", "King", "Captain", "Spaniards"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Hawaiian Cowboys]', questionText: '3) Meaning of Mentor in the paragraph?', options: ["Teacher", "Origin", "relatives", "manager"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Hawaiian Cowboys]', questionText: '4) What does "their" in the paragraph refer to?', options: ["Vaqueros", "research", "Hawaii or ( Hawaiian )", "cattle"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Hawaiian Cowboys]', questionText: '5) What is said about ranching as a job?', options: ["it wasn't enough for a cowboy to live off", "helped the cowboys to live", "it was extremely profitable", "it required high education"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Hawaiian Cowboys]', questionText: '6) What did Danny say regarding the Paniolo culture?', options: ["It will always remain a central part of Hawaiian identity", "It has become widely recognized in mainland America", "There is a significant drop in their population in the last years", "It's likely to be less popular in the future"], correctAnswer: 'C' },
+
+    // Passage 2: Children Eating Habits
+    { category: 'Reading Comprehension', passage: '[Passage: Children Eating Habits]', questionText: "1) The children's preferences were?", options: ["numerous", "avert", "obvious", "unrelated"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Children Eating Habits]', questionText: "2) How to make the children's eating habits better?", options: ["self regulating food", "looking up to parents", "By taking as much information as possible", "to imitate their parents"], correctAnswer: 'D' },
+    { category: 'Reading Comprehension', passage: '[Passage: Children Eating Habits]', questionText: '3) Rewarding children had .......... influence on them?', options: ["Unintended", "positive", "inexplicable", "considerate"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Children Eating Habits]', questionText: "4) What's the purpose of the text?", options: ["Provide a solution to a problem", "to give information", "Contrast different scientific theories", "Promote fast food brands"], correctAnswer: 'B' },
+
+    // Passage 3: Immunity
+    { category: 'Reading Comprehension', passage: '[Passage: Immunity]', questionText: '1) What did Dr. Richard say parents should let their children do?', options: ["let them get exposed to a little bit of dirt", "keep them strictly sanitized", "avoid outdoor activities", "use antibacterial soap daily"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Immunity]', questionText: '2) According to dr. Richard what is the hygiene hypothesis?', options: ["Exposure to germs at youth enhances your immunity system", "The hypothesis was a relationship between germs and health", "Clean environments eradicate all autoimmune disorders", "Antibacterial soaps improve gut bacteria"], correctAnswer: 'B' },
+    { category: 'Reading Comprehension', passage: '[Passage: Immunity]', questionText: '3) Meaning of determinant?', options: ["Cause", "result", "Effect", "origin"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Immunity]', questionText: '4) What did he say was possible for the spread of autoimmune diseases through more exposure at a young age?', options: ["stop it", "cure it", "lessened", "prevented entirely"], correctAnswer: 'C' },
+    { category: 'Reading Comprehension', passage: '[Passage: Immunity]', questionText: '5) Which is true according to the passage?', options: ["Dr Richard was the first person to do the study", "explains the relationship between the microbes /germs and health", "Other doctors disagree with the study", "Laboratory mice developed stronger immunity without germs"], correctAnswer: 'B' },
+    { category: 'Reading Comprehension', passage: '[Passage: Immunity]', questionText: '6) What should children not use?', options: ["Antibacterial soap", "Regular soap", "Tap water", "Moisturizing cream"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Immunity]', questionText: '7) When did the writer mention was the time you were exposed to getting bacteria in your immunity?', options: ["In the early stages of life", "In adulthood", "During adolescence", "In old age"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Immunity]', questionText: '8) What did (their) refer to?', options: ["Medical research", "Microbes", "Laboratories", "Diseases"], correctAnswer: 'A' },
+
+    // Passage 4: Coral Reef
+    { category: 'Reading Comprehension', passage: '[Passage: Coral Reef]', questionText: '1) Are the starfish partially to blame or not to blame at all?', options: ["one of the reasons", "The only reason to blame", "the most reason to blame", "not a reason"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Coral Reef]', questionText: "2) What's shrinking?", options: ["Coral", "Australia", "starfish", "ocean"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Coral Reef]', questionText: '3) What does it refer to in the passage?', options: ["coral", "starfish", "ocean", "Australia"], correctAnswer: 'A' }
+  ]
   },
   14: {
     analogy: [
@@ -1187,7 +1341,41 @@ const englishData = {
       { category: 'Wording', questionText: 'Although it is ............. the coral snake is very............', options: ["friendly : cute", "small : dangerous", "sweet : tasty", "soft : comfortable"], correctAnswer: 'B' },
       { category: 'Wording', questionText: 'Languages and cultures... and change over time, there are some particular cultures and languages that stay ............', options: ["sleep : tired", "run : fast", "grows : unique", "cook : hot"], correctAnswer: 'C' }
     ],
-    reading: []
+    reading: [
+    // Passage 1: Fresh Water
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '1) What is the percentage of water on earth?', options: ["over than 70%", "less than 20%", "exactly 50%", "around 90%"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: "2) Most of earth's water comes from?", options: ["Oceans", "Rivers", "Glaciers", "Rainfall"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '3) What is the main idea of the passage?', options: ["Freshwater Scarcity", "Ocean Navigation", "Saltwater Purification", "Industrial Recycling"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '4) Freshwater is....... According to the paragraph?', options: ["Decreasing and diminishing", "Abundant and infinite", "Increasing globally", "Unaffected by pollution"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '5) How does freshwater get contaminated?', options: ["Glaciers Melting", "Rising sea levels", "Volcanic eruptions", "Clean rainfall"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '6) What type of water comes from swamp?', options: ["Still Water", "dirty water", "Salt water", "Purified water"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '7) What does jeopardy mean in the context?', options: ["restrictions of freshwater", "global warming", "abundance", "purity"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '8) Freshwater never runs out because its constantly being renewed by which of the following?', options: ["Water Cycle", "Ocean currents", "Glacier runoff", "Underground pumping"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '9) The advancement in the medical fields had an effect on?', options: ["fresh water supply", "increase in healthy people", "ocean salinity", "glacier melting rates"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: "10) What's water that seeps into the ground called?", options: ["Groundwater", "Reservoir", "Aquifer", "Run-off"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '11) What is the best title?', options: ["The decrease of fresh water", "The History of Oceans", "Building Reservoirs", "Saltwater Irrigation"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '12) What would cause jeopardy?', options: ["Decrease of freshwater", "Increase of rain", "Melting icebergs", "Aquifer expansion"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '13) Meaning of the word survival?', options: ["Live / continuity", "Extinction", "Danger", "Transformation"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '14) Increasing the ocean water leads to?', options: ["Salty water", "Less salty water", "Glaciers melting", "Freshwater growth"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '15) Water supplies for large towns are called..', options: ["Reservoirs", "Ponds", "Wells", "Streams"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '16) Underground layer of rock that gets filled with water?', options: ["Aquifer", "Reservoir", "Swamp", "Basin"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '17) What is not a way water would get polluted?', options: ["watering the grass", "dumping trash", "industrial chemicals", "acid rain"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Fresh Water]', questionText: '18) Water that runs off land and pollutes freshwater supply?', options: ["Run-off water", "Groundwater", "Aquifer water", "Distilled water"], correctAnswer: 'A' },
+
+    // Passage 2: Arab Dhow
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '1) What were the Arab contributions mostly of?', options: ["mostly artistic", "mostly scientific", "mostly historic", "mostly mathematical"], correctAnswer: 'B' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '2) Paragraph 2 is mostly talking about?', options: ["The many benefits of Dhows", "The history of Portugal", "Square sail engineering", "African port taxes"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '3) Meaning of substantial?', options: ["Major", "Minor", "Weak", "Temporary"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '4) How did Henry improve the dhows?', options: ["He took ideas from the Arabs", "Helped it move against the wind", "he made them faster", "Lateen sails"], correctAnswer: 'D' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: "5) What was the Europeans' boats problem?", options: ["They were uncontrollable", "They were too small", "They sank easily", "They were too expensive"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '6) How are Europeans boats described as in the 1st century?', options: ["Hard to move", "Fast and agile", "Unsinkable", "Lightweight"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '7) Why is the Arab Dhow famous?', options: ["Maneuverability", "Large iron anchors", "Heavy armor", "Rowing capacity"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '8) Why did Henry become interested in Arab Dhows?', options: ["Because of its maneuvering", "Trade with Africa", "European naval laws", "Fishing efficiency"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '9) What is the best title?', options: ["Arab dhows and their contributions to trade", "The Life of Prince Henry", "European Shipbuilding in the 18th Century", "Sailing across the Atlantic"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '10) What was the purpose of the test?', options: ["To inform", "To persuade", "To criticize", "To entertain"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '11) What is the meaning of extensive as used in paragraph 2?', options: ["Widespread", "Profitable", "Risky", "Limited"], correctAnswer: 'A' },
+    { category: 'Reading Comprehension', passage: '[Passage: Arab Dhow]', questionText: '12) What does "It" refer to?', options: ["Vessels", "Lateen", "sailors", "Trade"], correctAnswer: 'A' }
+  ]
   },
   15: {
     analogy: [],

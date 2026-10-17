@@ -1452,16 +1452,6 @@ function showPassageModal(title, passageText) {
 }
 
 // 1. Ensure Model selection sets activeModel
-function selectEnglishModel(modelNumber) {
-  activeModel = modelNumber;
-  
-  const titleElement = document.getElementById('active-model-title');
-  if (titleElement) {
-    titleElement.textContent = `Model ${modelNumber}`;
-  }
-  
-  switchView('english-sections-view');
-}
 
 // 2. Safely extract questions from englishData
 function prepareEnglishQuestions(category) {

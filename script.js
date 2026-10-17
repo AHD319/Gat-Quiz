@@ -1446,7 +1446,7 @@ function showPassageModal(title, passageText) {
         });
     }
 
-    document.getElementById('modal-passage-title').textContent = title << 'Full Passage';
+    document.getElementById('modal-passage-title').textContent = title || 'Full Passage';
     document.getElementById('modal-passage-body').textContent = passageText;
     modal.style.display = 'flex';
 }

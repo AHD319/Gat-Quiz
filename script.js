@@ -1486,7 +1486,7 @@ function prepareEnglishQuestions(category) {
 
   shuffleArray(analogies);
   shuffleArray(wording);
-  shuffleArray(reading);
+  
 
   if (category) {
     const catLower = category.toLowerCase();

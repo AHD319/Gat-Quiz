@@ -366,24 +366,25 @@ const mathQuestions = [
 ];
 
 const englishData = {
-  1: { analogy: [{ category: 'Analogies', questionText: 'Car : Pollution', options: ["Fire : Smoke", "Cold : Ice", "Book : Page", "Sun : Yellow"], correctAnswer: 'A' },
-  { category: 'Analogies', questionText: 'Bricks : House', options: ["Tree : Leaf", "Bones : Skeleton", "Pen : Ink", "Water : River"], correctAnswer: 'B' },
-  { category: 'Analogies', questionText: 'Tree : Forest', options: ["Key : Lock", "Day : Night", "Star : Sky", "Dog : Cat"], correctAnswer: 'C' },
-  { category: 'Analogies', questionText: 'Gym : Exercise', options: ["Paper : Write", "Hot : Cold", "Shoe : Foot", "Library : Read"], correctAnswer: 'D' },
-  { category: 'Analogies', questionText: 'Speak : Shout', options: ["Sleep : Dream", "Eat : Cook", "Walk : Run", "Look : See"], correctAnswer: 'C' },
-  { category: 'Analogies', questionText: 'Toyota : Car', options: ["Table : Wood", "Ocean : Water", "Bass : Guitar", "Fast : Quick"], correctAnswer: 'C' },
-  { category: 'Analogies', questionText: 'Select : Choose', options: ["In : Out", "Near : Far", "Up : Down", "Always : Forever"], correctAnswer: 'D' },
-  { category: 'Analogies', questionText: 'Easy : Simple', options: ["Hard : Soft", "High : Low", "Dark : Light", "Grateful : Thankful"], correctAnswer: 'D' },
-  { category: 'Analogies', questionText: 'Caterpillar : Butterfly', options: ["Big : Small", "Day : Night", "Baby : Adult", "Paper : Pen"], correctAnswer: 'C' },
-  { category: 'Analogies', questionText: 'Eye : Face', options: ["Hot : Cold", "City : Country", "Run : Fast", "Read : Book"], correctAnswer: 'B' },
-  { category: 'Analogies', questionText: 'Screen : Laptop', options: ["Smart : Wise", "Slow : Fast", "Fin : Fish", "Build : House"], correctAnswer: 'C' },
-  { category: 'Analogies', questionText: 'Floor : Ceiling', options: ["Sour : Sweet", "Tall : High", "Big : Huge", "Fast : Quick"], correctAnswer: 'A' },
-  { category: 'Analogies', questionText: 'Suggest : Demand', options: ["Take : Grab", "Cold : Hot", "Apple : Tree", "Paper : Pen"], correctAnswer: 'A' },
-  { category: 'Analogies', questionText: 'Work : Experience', options: ["Desk : Chair", "Shoe : Sock", "Black : White", "Tickle : Laugh"], correctAnswer: 'D' },
-  { category: 'Analogies', questionText: 'Roof : House', options: ["Country : World", "Soft : Hard", "Walk : Slow", "Sing : Song"], correctAnswer: 'A' },
-  { category: 'Analogies', questionText: 'Wet : Soak', options: ["Rub : Scrub", "Clean : Dirty", "Up : Down", "Dry : Wet"], correctAnswer: 'A' },
-  { category: 'Analogies', questionText: 'Accomplish : Achieve', options: ["Start : Stop", "Push : Pull", "Win : Lose", "Fall : Drop"], correctAnswer: 'D' },
-  { category: 'Analogies', questionText: 'Mammal : Human', options: ["Tree : Leaf", "Fish : Water", "Bird : Sky", "Vehicle : Truck"], correctAnswer: 'D' }], wording: [
+  1: { analogy: [
+      { category: 'Analogies', questionText: 'Car : Pollution', options: ["Fire : Smoke", "Cold : Ice", "Book : Page", "Sun : Yellow"], correctAnswer: 'A' },
+      { category: 'Analogies', questionText: 'Bricks : House', options: ["Tree : Leaf", "Bones : Skeleton", "Pen : Ink", "Water : River"], correctAnswer: 'B', dilemma: ["Star : sky (galaxy)"] },
+      { category: 'Analogies', questionText: 'Tree : Forest', options: ["Key : Lock", "Day : Night", "Star : Sky", "Dog : Cat"], correctAnswer: 'C' },
+      { category: 'Analogies', questionText: 'Gym : Exercise', options: ["Paper : Write", "Hot : Cold", "Shoe : Foot", "Library : Read"], correctAnswer: 'D' },
+      { category: 'Analogies', questionText: 'Speak : Shout', options: ["Sleep : Dream", "Eat : Cook", "Walk : Run", "Look : See"], correctAnswer: 'C' },
+      { category: 'Analogies', questionText: 'Toyota : Car', options: ["Table : Wood", "Ocean : Water", "Bass : Guitar", "Fast : Quick"], correctAnswer: 'C', dilemma: ["Paris : France", "Rice : wheat"] },
+      { category: 'Analogies', questionText: 'Select : Choose', options: ["In : Out", "Near : Far", "Up : Down", "Always : Forever"], correctAnswer: 'D', dilemma: ["Discovery : creation"] },
+      { category: 'Analogies', questionText: 'Easy : Simple', options: ["Hard : Soft", "High : Low", "Dark : Light", "Grateful : Thankful"], correctAnswer: 'D' },
+      { category: 'Analogies', questionText: 'Caterpillar : Butterfly', options: ["Big : Small", "Day : Night", "Baby : Adult", "Paper : Pen"], correctAnswer: 'C', dilemma: ["Toad : frog", "Airplane : fly"] },
+      { category: 'Analogies', questionText: 'Eye : Face', options: ["Hot : Cold", "City : Country", "Run : Fast", "Read : Book"], correctAnswer: 'B', dilemma: ["Sing : scream"] },
+      { category: 'Analogies', questionText: 'Screen : Laptop', options: ["Smart : Wise", "Slow : Fast", "Fin : Fish", "Build : House"], correctAnswer: 'C', dilemma: ["Apartment : house", "Time : clock"] },
+      { category: 'Analogies', questionText: 'Floor : Ceiling', options: ["Sour : Sweet", "Tall : High", "Big : Huge", "Fast : Quick"], correctAnswer: 'A' },
+      { category: 'Analogies', questionText: 'Suggest : Demand', options: ["Take : Grab", "Cold : Hot", "Apple : Tree", "Paper : Pen"], correctAnswer: 'A', dilemma: ["Allow : deny"] },
+      { category: 'Analogies', questionText: 'Work : Experience', options: ["Desk : Chair", "Shoe : Sock", "Black : White", "Tickle : Laugh"], correctAnswer: 'D', dilemma: ["Childlike : mature"] },
+      { category: 'Analogies', questionText: 'Roof : House', options: ["Country : World", "Soft : Hard", "Walk : Slow", "Sing : Song"], correctAnswer: 'A' },
+      { category: 'Analogies', questionText: 'Wet : Soak', options: ["Rub : Scrub", "Clean : Dirty", "Up : Down", "Dry : Wet"], correctAnswer: 'A' },
+      { category: 'Analogies', questionText: 'Accomplish : Achieve', options: ["Start : Stop", "Push : Pull", "Win : Lose", "Fall : Drop"], correctAnswer: 'D' },
+      { category: 'Analogies', questionText: 'Mammal : Human', options: ["Tree : Leaf", "Fish : Water", "Bird : Sky", "Vehicle : Truck"], correctAnswer: 'D' } ], wording: [
       // Sentence Completion
       { category: 'Wording', questionText: '_________ on the dental chair, with tubes and tools attached to his phone, Ahmed began _________ on his phone as his dentist set to work.', options: ["Reclined : typing", "cooking : stove", "flying : cloud", "sleeping : pillow"], correctAnswer: 'A' },
       { category: 'Wording', questionText: 'General _________ airports are smaller airports that process private, business, commercial, and _________ flights.', options: ["shoe : fast", "Aviation : charter", "cold : ice", "loud : noise"], correctAnswer: 'B' },
@@ -1664,6 +1665,36 @@ if (q.imageSrc) {
     qDiv.style.lineHeight = '1.4';
     qDiv.textContent = q.questionText;
     textContainer.appendChild(qDiv);
+    if (q.dilemma && (Array.isArray(q.dilemma) ? q.dilemma.length > 0 : String(q.dilemma).trim() !== '')) {
+            const dilemmaBox = document.createElement('div');
+            dilemmaBox.style.backgroundColor = '#fffbeb';
+            dilemmaBox.style.border = '1px solid #fde68a';
+            dilemmaBox.style.borderLeft = '4px solid #f59e0b';
+            dilemmaBox.style.padding = '10px 14px';
+            dilemmaBox.style.marginTop = '14px';
+            dilemmaBox.style.borderRadius = '6px';
+            dilemmaBox.style.fontSize = '0.85rem';
+            dilemmaBox.style.color = '#92400e';
+
+            let listHTML = '';
+            if (Array.isArray(q.dilemma)) {
+                listHTML = '<ul style="margin: 4px 0 0 18px; padding: 0;">' + 
+                    q.dilemma.map(item => `<li><strong>${item}</strong></li>`).join('') + 
+                    '</ul>';
+            } else {
+                listHTML = `<div style="margin-top: 4px;"><strong>${q.dilemma}</strong></div>`;
+            }
+
+            dilemmaBox.innerHTML = `
+                <div style="font-weight: 700; display: flex; align-items: center; gap: 6px;">
+                    <span>⚠️</span> <span>Exam Dilemma Note:</span>
+                </div>
+                <div style="margin-top: 4px; color: #78350f;">Alternate correct options recorded on other exam versions:</div>
+                ${listHTML}
+            `;
+
+            textContainer.appendChild(dilemmaBox);
+        }
 }
 
 const buttons = document.querySelectorAll('.option-btn');

@@ -806,7 +806,7 @@ const englishData = {
       { category: 'Analogies', questionText: 'Happiness : Smile', options: ["Tiredness : Rest", "Frown : Anger", "Hot : Sun", "Cold : Ice"], correctAnswer: 'A', dilemma: ["Angry : shout", "Bright : shiny", "Cold : sweatshirt"] },
       { category: 'Analogies', questionText: 'Tooth : Comb', options: ["Tree : Leaf", "Brush : Hair", "Pages : Novel", "Wheel : Drive"], correctAnswer: 'C' },
       { category: 'Analogies', questionText: 'Orange : Citrus', options: ["Vehicle : Sedan", "Laptop : Computer", "Car : Engine", "Desk : Wood"], correctAnswer: 'B', dilemma: ["Fruit : vegetable"] },
-      { category: 'Analogies', questionText: 'Baking : Cake', options: ["Song : Composing", "Writing : Book", "Coding : Program", "Oven : Kitchen"], correctAnswer: 'C', dilemma: ["Weighing : Scale"] },
+      { category: 'Analogies', questionText: 'Baking : Cake', options: ["Song : Composing", "Book : Writing", "Coding : Program", "Oven : Kitchen"], correctAnswer: 'C', dilemma: ["Weighing : Scale"] },
       { category: 'Analogies', questionText: 'Walk : Run', options: ["Sprint : Jog", "Swim : Water", "Speak : Shout", "Glance : Look"], correctAnswer: 'C' },
       { category: 'Analogies', questionText: 'Clay : Brick', options: ["Water : Ice", "Bread : Flour", "Build : House", "Wood : Forest"], correctAnswer: 'A', dilemma: ["Build : Make"] },
       { category: 'Analogies', questionText: 'Cry : Sadness', options: ["Fear : Tremble", "Gasp : Surprise", "Tears : Eye", "Laughter : Joke"], correctAnswer: 'B' },

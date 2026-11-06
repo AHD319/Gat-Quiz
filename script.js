@@ -1320,22 +1320,22 @@ const englishData = {
   },
   14: {
     analogy: [
-      { category: 'Analogies', questionText: 'Pamphlet : Book', options: ["Desk : Table", "Paper : Page", "Stool : Chair", "Read : Library"], correctAnswer: 'C' },
-      { category: 'Analogies', questionText: 'Illness : Virus', options: ["Trauma : Accident", "Accident : Injury", "Health : Doctor", "Sickness : Bed"], correctAnswer: 'A' },
-      { category: 'Analogies', questionText: 'Blindness : Eyes', options: ["Economy : Slump", "Vision : Sight", "Recession : Economy", "Deaf : Ear"], correctAnswer: 'C' },
+      { category: 'Analogies', questionText: 'Pamphlet : Book', options: ["Hot : Cold", "Paper : Page", "Stool : Chair", "Read : Library"], correctAnswer: 'C' },
+      { category: 'Analogies', questionText: 'Illness : Virus', options: ["Trauma : Accident", "Sun : Sky", "Health : Doctor", "Sickness : Bed"], correctAnswer: 'A' },
+      { category: 'Analogies', questionText: 'Blindness : Eyes', options: ["Economy : Slump", "Vision : Sight", "Recession : Economy", "Fast : Slow"], correctAnswer: 'C' },
       { category: 'Analogies', questionText: 'Ray : Beam', options: ["Word : Sentence", "Light : Sun", "Alphabet : Text", "Letter : Character"], correctAnswer: 'D' },
       { category: 'Analogies', questionText: 'Color : Fabric', options: ["Pitch : Sound", "Sound : Volume", "Fabric : Weave", "Bright : Light"], correctAnswer: 'A' },
-      { category: 'Analogies', questionText: 'Rocket : Trajectory', options: ["Path : Walker", "Flight : Plane", "Journey : Itinerary", "Map : City"], correctAnswer: 'C' },
+      { category: 'Analogies', questionText: 'Rocket : Trajectory', options: ["Path : Walker", "Flight : Plane", "Journey : Itinerary", "Map : City"], correctAnswer: 'C', dilemma: ["Bus : route"] },
       { category: 'Analogies', questionText: 'Fish : School', options: ["Flock : Bird", "Herd : Cattle", "Locust : Swarm", "Animal : Zoo"], correctAnswer: 'C' },
       { category: 'Analogies', questionText: 'Page : Book', options: ["Year : Month", "Season : Year", "Author : Book", "Read : Text"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Winter : Cold', options: ["Freshness : Water", "Summer : Season", "Ice : Melt", "River : Freshness"], correctAnswer: 'D' },
+      { category: 'Analogies', questionText: 'Winter : Cold', options: ["Freshness : Water", "Summer : Season", "Ice : Melt", "River : Freshness"], correctAnswer: 'D', dilemma: ["Playground : green", "Face : beauty"] },
       { category: 'Analogies', questionText: 'Sand : Dunes', options: ["Rain : Ponds", "Puddles : Water", "Wind : Storm", "Snow : Winter"], correctAnswer: 'A' },
       { category: 'Analogies', questionText: 'Copy : Authentic', options: ["Original : Fake", "Fake : Counterfeit", "Print : Paper", "Reproduce : Original"], correctAnswer: 'D' },
       { category: 'Analogies', questionText: 'Dearth : Paucity', options: ["Individual : Person", "Abundance : Dearth", "Group : Crowd", "Few : Many"], correctAnswer: 'A' },
-      { category: 'Analogies', questionText: 'Accident : Injury', options: ["Erosion : Wind", "Water : Erosion", "Harm : Danger", "Doctor : Cure"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Accident : Injury', options: ["Erosion : Wind", "Water : Erosion", "Harm : Danger", "Doctor : Cure"], correctAnswer: 'B', dilemma: ["Injury : pain", "Cavity : pain"] },
       { category: 'Analogies', questionText: 'Electron : Atom', options: ["Fruit : Core", "Cell : Tissue", "Seed : Orange", "Atom : Molecule"], correctAnswer: 'C' },
       { category: 'Analogies', questionText: 'Recall : Forget', options: ["Remember : Mind", "Ignore : Skip", "Care : Neglect", "Memory : Brain"], correctAnswer: 'C' },
-      { category: 'Analogies', questionText: 'Presence : Absence', options: ["Precede : Ensue", "Follow : Lead", "Before : Prior", "Time : Clock"], correctAnswer: 'A' }
+      { category: 'Analogies', questionText: 'Presence : Absence', options: ["Precede : Ensue", "Before : Prior", "High : Low", "Time : Clock"], correctAnswer: 'A', dilemma: ["Lead : Follow"] }
     ],
     wording: [
       { category: 'Wording', questionText: 'I would love to stay in a village where it.....to be calm and quiet. Life in cities is...... too busy.', options: ["tends : simply", "swims : cold", "cooks : hot", "flies : high"], correctAnswer: 'A' },

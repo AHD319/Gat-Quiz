@@ -455,7 +455,7 @@ const englishData = {
     { category: 'Analogies', questionText: 'Handle : Door', options: ["Sweet : Sour", "Light : Dark", "Trunk : Tree", "Walk : Run"], correctAnswer: 'C', dilemma: ["Fruit : marmalade"] },
     { category: 'Analogies', questionText: 'Eagle : Hawk', options: ["Big : Small", "Rice : Wheat", "Up : Down", "Fast : Slow"], correctAnswer: 'B' },
     { category: 'Analogies', questionText: 'Sofa : Rug', options: ["Cinnamon : Ginger", "Hot : Cold", "High : Low", "Near : Far"], correctAnswer: 'A', dilemma: ["Salt : water"] },
-    { category: 'Analogies', questionText: 'Hospital : Wing', options: ["Fast : Slow", "Run : Walk", "Bright : Dark", "Window : Room"], correctAnswer: 'D', dilemma: ["Forest : land", "Literature : Tragedy"] },
+    { category: 'Analogies', questionText: 'Hospital : Wing', options: ["Fast : Slow", "Run : Walk", "Bright : Dark", "Literature : Tragedy"], correctAnswer: 'D', dilemma: ["Forest : land", "Window : Room"] },
     { category: 'Analogies', questionText: 'Win : Lose', options: ["Push : Pull", "High : Tall", "Fast : Quick", "Start : Begin"], correctAnswer: 'A', dilemma: ["True : false"] }
   ], wording: [
       // Sentence Completion

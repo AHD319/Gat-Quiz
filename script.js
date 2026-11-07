@@ -46,7 +46,7 @@ const mathQuestions = [
     { questionNumber: 47, correctAnswer: 'C', category: 'Algebra', imageSrc: 'MathQuizImages/47_C.png' },
     { questionNumber: 48, correctAnswer: 'A', category: 'Geometry', imageSrc: 'MathQuizImages/48_A.png' },
     { questionNumber: 49, correctAnswer: 'B', category: 'Geometry', imageSrc: 'MathQuizImages/49_B.png' },
-    { questionNumber: 50, correctAnswer: 'B', category: 'Geometry', imageSrc: 'MathQuizImages/50_B.png' },
+    { questionNumber: 50, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/50_C.png' },
     { questionNumber: 51, correctAnswer: 'C', category: 'Geometry', imageSrc: 'MathQuizImages/51_C.png' },
     { questionNumber: 52, correctAnswer: 'B', category: 'Word Problem', imageSrc: 'MathQuizImages/52_B.png' },
     { questionNumber: 53, correctAnswer: 'D', category: 'Word Problem', imageSrc: 'MathQuizImages/53_D.png' },

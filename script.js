@@ -726,7 +726,7 @@ const englishData = {
       { category: 'Analogies', questionText: 'Discuss : Argue', options: ["Nibble : Eat", "Smile : Face", "Book : Page", "Sun : Rain"], correctAnswer: 'A', dilemma: ["Dig : Delve", "Whisper : Shout"] },
       { category: 'Analogies', questionText: 'Cotton : Shirt', options: ["Cold : Warm", "Tree : Branch", "Fruit : Jam", "Run : Fast"], correctAnswer: 'C', dilemma: ["Think : brain", "Wheat : bread", "Wood : Table"] },
       { category: 'Analogies', questionText: 'Sandstorm : Weather', options: ["Pen : Ink", "Tree : Leaf", "Lizard : Reptile", "Cat : Meow"], correctAnswer: 'C' },
-      { category: 'Analogies', questionText: 'Take : Snatch', options: ["Light : Dark", "Shoe : Sock", "Look : Stare", "Walk : Run"], correctAnswer: 'C' },
+      { category: 'Analogies', questionText: 'Take : Snatch', options: ["Light : Dark", "Shoe : Sock", "Look : Stare", "Run : Walk"], correctAnswer: 'C' },
       { category: 'Analogies', questionText: 'Drill : Hole', options: ["Chair : Table", "Manufacture : Product", "Day : Night", "Paint : Brush"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Biology : Science', options: ["Water : Ice", "Pant : Belt", "Drive : Car", "Boot : Footwear"], correctAnswer: 'D' },
       { category: 'Analogies', questionText: 'Scissors : Cut', options: ["Hot : Cold", "Shovel : Dig", "Ink : Pen", "Paper : Pen"], correctAnswer: 'B' },

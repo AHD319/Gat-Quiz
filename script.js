@@ -873,8 +873,8 @@ const englishData = {
  8: {
     analogy: [
       { category: 'Analogies', questionText: 'Accept : Repel', options: ["Gather : Collect", "Receive : Welcome", "Glean : Scatter", "Arrive : Destination"], correctAnswer: 'C' },
-      { category: 'Analogies', questionText: 'Nightmares : Fears', options: ["Peace : Prosperity", "Failure : Defeat", "Sleep : Dream", "Danger : Safe"], correctAnswer: 'A' },
-      { category: 'Analogies', questionText: 'Plant : Watering', options: ["Cooking : Meal", "Seed : Soil", "Growth : Tree", "Coin : Minting"], correctAnswer: 'D' },
+      { category: 'Analogies', questionText: 'Nightmares : Fears', options: ["Peace : Prosperity", "Failure : Succeed", "Sleep : Dream", "Danger : Safe"], correctAnswer: 'A' },
+      { category: 'Analogies', questionText: 'Plant : Watering', options: ["Cooking : Meal", "Soil : Seed", "Growth : Tree", "Coin : Minting"], correctAnswer: 'D' },
       { category: 'Analogies', questionText: 'Pony : Horse', options: ["Fruit : Apple", "Cheddar : Cheese", "Vehicle : Drive", "Table : Room"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Eagle : Hawk', options: ["Rice : Wheat", "Feather : Bird", "Bird : Eagle", "Grain : Harvest"], correctAnswer: 'A' },
       { category: 'Analogies', questionText: 'Rodent : Squirrel', options: ["Lion : Feline", "Animal : Fur", "Canine : Wolf", "Pack : Hunt"], correctAnswer: 'C' },
@@ -885,7 +885,7 @@ const englishData = {
       { category: 'Analogies', questionText: 'Chair : Sitting', options: ["Reading : Book", "Ice : Skating", "Bed : Pillow", "Walk : Path"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Hospital : Wing', options: ["Page : Novel", "Doctor : Ward", "Stage : Theater", "Literature : Tragedy"], correctAnswer: 'D' },
       { category: 'Analogies', questionText: 'Word : Sentence', options: ["Brick : Wall", "House : Room", "Letter : Write", "Mortar : Build"], correctAnswer: 'A' },
-      { category: 'Analogies', questionText: 'Impartial : Fair', options: ["Biased : Objective", "Sin : Vice", "Honesty : Truthful", "Judge : Court"], correctAnswer: 'B' },
+      { category: 'Analogies', questionText: 'Impartial : Fair', options: ["Biased : Objective", "Sin : Vice", "Honesty : Untruthful", "Judge : Court"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Mammal : Human', options: ["Dog : Animal", "Reptile : Scaly", "Vehicle : Truck", "Drive : Road"], correctAnswer: 'C' },
       { category: 'Analogies', questionText: 'Dangerous : Peril', options: ["Safe : Hazard", "Shield : Protect", "Armor : Heavy", "Sword : Saber"], correctAnswer: 'D' },
       { category: 'Analogies', questionText: 'Apple : Orange', options: ["Freedom : Individuality", "Peel : Fruit", "Fruit : Banana", "Juice : Glass"], correctAnswer: 'A' },

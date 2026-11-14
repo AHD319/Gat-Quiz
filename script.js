@@ -1103,7 +1103,7 @@ const englishData = {
       { category: 'Analogies', questionText: 'Drop : Broken', options: ["Clean : Wash", "Study : Informed", "Fall : Drop", "Bird : Nest"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Travel : Arrive', options: ["Win : Compete", "Order : Receive", "Search : Look", "Milk : White"], correctAnswer: 'B' },
       { category: 'Analogies', questionText: 'Pleased : Disappointed', options: ["Happy : Joyful", "Rarely : Frequently", "Calm : Peaceful", "Tree : Green"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Shirt : Clothing', options: ["Vehicle : Car", "Desk : Furniture", "Pants : Shorts", "Fast : Runner"], correctAnswer: 'B' }
+      { category: 'Analogies', questionText: 'Shirt : Clothing', options: ["Car : Vehicle", "Desk : Furniture", "Pants : Shorts", "Fast : Runner"], correctAnswer: 'B' }
     ],
     wording: [
       // Sentence Completion

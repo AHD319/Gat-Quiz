@@ -1243,7 +1243,7 @@ const englishData = {
       { category: 'Analogies', questionText: 'Watchful : Aware', options: ["Reward : Penalty", "Alert : Sleepy", "Prize : Reward", "Win : Game"], correctAnswer: 'C', dilemma: ["criminal : guilty", "Find : Rescue"] },
       { category: 'Analogies', questionText: 'Scroll : Mouse', options: ["Scissors : Cut", "Screen : Monitor", "Hand : Hold", "Peel : Knife"], correctAnswer: 'D' },
       { category: 'Analogies', questionText: 'Ruler : Measure', options: ["Scale : Weight", "Clean : Soap", "Filter : Clean", "Sharp : Knife"], correctAnswer: 'C', dilemma: ["Pencil : Record", "knife : cut"] },
-      { category: 'Analogies', questionText: 'Cry : Sadness', options: ["Anger : Yell", "Gasp : Surprise", "Smile : Teeth", "Fear : Danger"], correctAnswer: 'B', dilemma: ["hilarious : happy"] },
+      { category: 'Analogies', questionText: 'Cry : Sadness', options: ["Anger : Yell", "Gasp : Surprise", "Smile : Teeth", "Danger : Fear"], correctAnswer: 'B', dilemma: ["hilarious : happy"] },
       { category: 'Analogies', questionText: 'Water : Swimming', options: ["Climbing : Peak", "Ocean : Wave", "Mountain : Climbing", "Hike : Trail"], correctAnswer: 'C' },
       { category: 'Analogies', questionText: 'Eyes : Seeing', options: ["Thinking : Mind", "Brain : Thinking", "Glasses : Sight", "Hear : Ear"], correctAnswer: 'B', dilemma: ["glasses : looking"] },
       { category: 'Analogies', questionText: 'Heart : Love', options: ["Courage : Hero", "Red : Color", "Lion : Bravery", "Fox : Animal"], correctAnswer: 'C' },
@@ -1256,7 +1256,7 @@ const englishData = {
       { category: 'Analogies', questionText: 'Exercise : Fitness', options: ["Rain : Cloud", "Storm : Weather", "Monsoon : Flood", "Health : Doctor"], correctAnswer: 'C', dilemma: ["Dizziness : heat", "Thunder : Lighting", "Wealth : happiness"] },
       { category: 'Analogies', questionText: 'Drivers : License', options: ["Pass : Travel", "Car : Drive", "Passport : Border", "Flying : Ticket"], correctAnswer: 'D' },
       { category: 'Analogies', questionText: 'Cavity : Filling', options: ["Illness : Hospital", "Breakdown : Recovery", "Repair : Damage", "Fix : Tool"], correctAnswer: 'B' },
-      { category: 'Analogies', questionText: 'Erase : Eraser', options: ["Plot : Plan", "Plan : Scheme", "Delete : Key", "Draw : Pencil"], correctAnswer: 'A' },
+      { category: 'Analogies', questionText: 'Erase : Eraser', options: ["Plot : Plan", "Plan : Scheme", "Key : Delete", "Draw : Board"], correctAnswer: 'A' },
       { category: 'Analogies', questionText: 'Dismal : Dark', options: ["Laughter : Joke", "Gloomy : Bright", "Funny : Hilarious", "Sad : Tear"], correctAnswer: 'C' },
       { category: 'Analogies', questionText: 'Apple : Fruit', options: ["Mammal : Dog", "Monkey : Primate", "Tree : Oak", "Banana : Peel"], correctAnswer: 'B', dilemma: ["Toothpaste : Detergent"] }
     ],

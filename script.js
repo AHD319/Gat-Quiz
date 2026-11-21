@@ -437,7 +437,7 @@ const englishData = {
   ] },
   2: { analogy: [
     { category: 'Analogies', questionText: 'Fire : Gun', options: ["Fly : Wings", "Bullet : Lead", "Dark : Light", "Shoot : Target"], correctAnswer: 'A', dilemma: ["Medicine : cure"] },
-    { category: 'Analogies', questionText: 'Drought : Famine', options: ["War : Death", "Peace : Joy", "Rain : Wet", "Wind : Cold"], correctAnswer: 'A', dilemma: ["Pen : pencil"] },
+    { category: 'Analogies', questionText: 'Drought : Famine', options: ["War : Death", "Thirst : Water", "Rain : Wet", "Wind : Cold"], correctAnswer: 'A', dilemma: ["Pen : pencil"] },
     { category: 'Analogies', questionText: 'Factory : Production', options: ["Table : Chair", "Angry : Shout", "Cat : Dog", "Blue : Color"], correctAnswer: 'B', dilemma: ["Plane : land", "Bus : vehicle"] },
     { category: 'Analogies', questionText: 'Cry : Sadness', options: ["Smile : Face", "Tears : Eye", "Laugh : Joke", "Gasp : Surprise"], correctAnswer: 'D' },
     { category: 'Analogies', questionText: 'Milk : Ice Cream', options: ["Dog : Bark", "Run : Jump", "Cold : Warm", "Gold : Necklace"], correctAnswer: 'D' },
